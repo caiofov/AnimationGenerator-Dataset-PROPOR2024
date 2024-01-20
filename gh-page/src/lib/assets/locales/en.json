@@ -1,1 +1,19 @@
-{}
+{
+    "stories": {
+        "Ala": {
+            "title": "Aladdin"
+        },
+        "ChVe": {
+            "title": "Little Red Riding Hood"
+        },
+        "PePr": {
+            "title": "Little Prince"
+        },
+        "PePa": {
+            "title": "Peter Pan"
+        },
+        "ViTe": {
+            "title": "Journey to the Center of the Earth"
+        }
+    }
+}
