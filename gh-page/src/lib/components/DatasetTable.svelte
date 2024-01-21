@@ -4,7 +4,6 @@
 		type GroupedGeneratorItems,
 		type GroupedPromptItems
 	} from '$lib/utils/dataset';
-	import { concatenateText } from '$lib/utils/text';
 	import { _ } from 'svelte-i18n';
 	const dataset = getGroupedDataset();
 
@@ -23,47 +22,96 @@
 	}
 </script>
 
-<table>
-	<tr>
-		<th>{$_('dataset.labels.story')}</th>
-		<th>{$_('dataset.labels.prompt')}</th>
-		<th>{$_('dataset.labels.generator')}</th>
-		<th>{$_('dataset.labels.generatedText')}</th>
-	</tr>
-	{#each Object.entries(dataset) as [story, storyGroup]}
-		<tr>
-			<td rowspan={storyRows(storyGroup)} class="story-title"
-				><p>{$_(`stories.${story}.title`)}</p></td
-			>
-		</tr>
+<div id="summary">
+	<ul>
+		{#each Object.keys(dataset) as story}
+			<li><a href={'#' + story} class="summary-item">{$_(`stories.${story}.title`)}</a></li>
+		{/each}
+	</ul>
+</div>
 
-		{#each Object.entries(storyGroup) as [prompt, promptGroup]}
+<div id="table-container">
+	<table>
+		<tr>
+			<th>{$_('dataset.labels.story')}</th>
+			<th>{$_('dataset.labels.prompt')}</th>
+			<th>{$_('dataset.labels.generator')}</th>
+			<th>{$_('dataset.labels.generatedText')}</th>
+			<th>ID</th>
+		</tr>
+		{#each Object.entries(dataset) as [story, storyGroup]}
 			<tr>
-				<td rowspan={promptRows(promptGroup)} class="prompt"
-					><p>
-						{prompt} - {Object.values(promptGroup)[0][0].prompt}
-					</p>
-				</td>
+				<td rowspan={storyRows(storyGroup)} class="story-title"
+					><p id={story}>{$_(`stories.${story}.title`)}</p></td
+				>
 			</tr>
 
-			{#each Object.entries(promptGroup) as [generator, generatorGroup]}
-				<tr><td rowspan={generatorGroup.length + 1} class="generator">{generator}</td></tr>
-				{#each generatorGroup as item}
-					<tr><td class="generated"><p>{item.generatedText}</p></td></tr>
+			{#each Object.entries(storyGroup) as [prompt, promptGroup]}
+				<tr>
+					<td rowspan={promptRows(promptGroup)} class="prompt"
+						><p>
+							{prompt} - {Object.values(promptGroup)[0][0].prompt}
+						</p>
+					</td>
+				</tr>
+
+				{#each Object.entries(promptGroup) as [generator, generatorGroup]}
+					<tr><td rowspan={generatorGroup.length + 1} class="generator">{generator}</td></tr>
+					{#each generatorGroup as item}
+						<tr>
+							<td class="generated">
+								<p>{item.generatedText}</p>
+							</td>
+							<td class="generated-id">
+								<p>{item.id}</p>
+							</td>
+						</tr>
+					{/each}
 				{/each}
 			{/each}
 		{/each}
-	{/each}
-</table>
+	</table>
+</div>
 
 <style>
+	#summary {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1rem;
+	}
+	ul {
+		border-radius: 5px;
+		display: flex;
+		box-shadow: 1px 3px 3px 3px rgba(64, 64, 64, 0.5);
+	}
+
+	li {
+		list-style: none;
+		margin-left: 3rem;
+		padding: 1rem 1rem;
+	}
+
+	.summary-item {
+		text-decoration: none;
+		color: var(--blue);
+		padding: 0.5rem;
+		border-radius: 5px;
+	}
+	.summary-item:hover {
+		border-left: solid 3px var(--blue);
+		border-right: solid 3px var(--blue);
+		transition: 0.2s;
+	}
 	.prompt {
 		width: 10%;
+		text-align: justify;
 	}
 	.generated {
 		width: 20%;
+		text-align: justify;
 	}
-	.generator {
+	.generator,
+	.generated-id {
 		width: 5%;
 		text-align: center;
 	}
@@ -72,6 +120,10 @@
 		text-align: center;
 		border-bottom: solid black 1px;
 		width: 10%;
+	}
+	#table-container {
+		justify-content: center;
+		display: flex;
 	}
 	table {
 		max-width: 80vw;
