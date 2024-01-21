@@ -15,5 +15,13 @@
         "ViTe": {
             "title": "Journey to the Center of the Earth"
         }
+    },
+    "dataset": {
+        "labels": {
+            "story": "Story",
+            "prompt": "Prompt",
+            "generator": "Generator",
+            "generatedText": "Generated Text"
+        }
     }
 }

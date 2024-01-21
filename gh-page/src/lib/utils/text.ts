@@ -1,4 +1,4 @@
-export function concatenateText(text: string, size: number, endChar = '...') {
-	if (text.length < size) return text;
+export function concatenateText(text: string, size: number | null, endChar = '...') {
+	if (size == null || text.length < size) return text;
 	return text.slice(0, size) + endChar;
 }
