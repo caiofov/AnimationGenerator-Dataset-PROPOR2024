@@ -3,9 +3,11 @@ import type { PageServerLoad } from './$types';
 import { getDataset } from '$lib/utils/dataset';
 
 export const load: PageServerLoad = async ({ params }) => {
-	const files = readdirSync(`src/lib/assets/dataset/frames/${params.id}`).sort();
+	const numFiles = readdirSync(`src/lib/assets/dataset/frames/${params.id}`).length;
+
 	const images: Record<string, string> = {};
-	for (const file of files) {
+	for (let index = 0; index < numFiles; index++) {
+		const file = `${params.id}_frame${index}.png`;
 		images[file] =
 			'data:image/png;base64,' +
 			readFileSync(`src/lib/assets/dataset/frames/${params.id}/${file}`, {

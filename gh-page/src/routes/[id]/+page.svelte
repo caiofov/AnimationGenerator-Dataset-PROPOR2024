@@ -49,7 +49,7 @@
 				{#each Object.keys(data.images) as _, index}
 					<button
 						class={selectedIndex == index ? 'selected' : ''}
-						on:click={() => (selectedIndex = index)}>{index}</button
+						on:click={() => (selectedIndex = index)}>{index + 1}</button
 					>
 				{/each}
 			</div>
@@ -57,9 +57,7 @@
 	{:else}
 		<div id="grid">
 			{#each Object.entries(data.images) as [name, image]}
-				<!-- <div> -->
 				<img src={image} alt={name} />
-				<!-- </div> -->
 			{/each}
 		</div>
 	{/if}
