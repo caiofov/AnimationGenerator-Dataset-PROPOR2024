@@ -67,7 +67,7 @@
 								<p>{item.id}</p>
 							</td>
 							<td class="play-icon">
-								<Play />
+								<a href={`/${item.id}`}><Play /></a>
 							</td>
 						</tr>
 					{/each}

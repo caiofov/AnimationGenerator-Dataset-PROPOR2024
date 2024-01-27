@@ -1,0 +1,19 @@
+<script lang="ts">
+	export let onClick: () => void = () => {};
+	export let title: string = '';
+</script>
+
+<svg fill="#000000" width="20px" height="20px" viewBox="0 0 32 32" on:click={onClick}>
+	<title>{title}</title>
+	<path
+		d="M30 32h-10c-1.105 0-2-0.895-2-2v-10c0-1.105 0.895-2 2-2h10c1.105 0 2 0.895 2 2v10c0 1.105-0.895 2-2 2zM30 20h-10v10h10v-10zM30 14h-10c-1.105 0-2-0.896-2-2v-10c0-1.105 0.895-2 2-2h10c1.105 0 2 0.895 2 2v10c0 1.104-0.895 2-2 2zM30 2h-10v10h10v-10zM12 32h-10c-1.105 0-2-0.895-2-2v-10c0-1.105 0.895-2 2-2h10c1.104 0 2 0.895 2 2v10c0 1.105-0.896 2-2 2zM12 20h-10v10h10v-10zM12 14h-10c-1.105 0-2-0.896-2-2v-10c0-1.105 0.895-2 2-2h10c1.104 0 2 0.895 2 2v10c0 1.104-0.896 2-2 2zM12 2h-10v10h10v-10z"
+	></path>
+</svg>
+
+<style>
+	svg:hover {
+		opacity: 0.5;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+</style>
