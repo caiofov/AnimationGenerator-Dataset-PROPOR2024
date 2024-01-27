@@ -1,5 +1,5 @@
-<script>
-	import Dataset from '$lib/components/Dataset.svelte';
+<script lang="ts">
+	import DatasetTable from '$lib/components/DatasetTable.svelte';
 </script>
 
-<Dataset />
+<DatasetTable />

@@ -47,7 +47,6 @@ export function getDataset() {
 export function getGroupedDataset() {
 	const groupedByStory: Record<StoryType, DatasetItem[]> = groupBy((i) => i.story, getDataset());
 	const storyOrganized: GroupedStoryItems = {};
-	const rowCount: Record<StoryType, number> = {};
 
 	for (const [story, items] of Object.entries(groupedByStory)) {
 		const groupedByPrompt = groupBy((i) => i.promptNumber, items);

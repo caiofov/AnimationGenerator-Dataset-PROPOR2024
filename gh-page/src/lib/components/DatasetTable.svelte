@@ -7,7 +7,6 @@
 	import { _ } from 'svelte-i18n';
 	const dataset = getGroupedDataset();
 
-	const maxTextLength = 100;
 	function promptRows(storyGroup: GroupedGeneratorItems) {
 		const generators = Object.values(storyGroup);
 
@@ -48,8 +47,8 @@
 
 			{#each Object.entries(storyGroup) as [prompt, promptGroup]}
 				<tr>
-					<td rowspan={promptRows(promptGroup)} class="prompt"
-						><p>
+					<td rowspan={promptRows(promptGroup)} class="prompt">
+						<p>
 							{prompt} - {Object.values(promptGroup)[0][0].prompt}
 						</p>
 					</td>
