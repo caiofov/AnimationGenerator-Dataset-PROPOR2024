@@ -22,6 +22,10 @@
             "prompt": "Prompt",
             "generator": "Generator",
             "generatedText": "Generated Text"
+        },
+        "image-player": {
+            "grid-off-tooltip": "View as grid",
+            "grid-on-tooltip": "View as slides"
         }
     }
 }

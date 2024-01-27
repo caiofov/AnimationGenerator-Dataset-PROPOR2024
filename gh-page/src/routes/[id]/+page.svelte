@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Grid from '$lib/icons/Grid.svelte';
 	import { _ } from 'svelte-i18n';
-	import type { PageData } from '../$types';
+	import type { PageServerData } from '../$types';
 
-	export let data: PageData;
+	export let data: PageServerData;
 	let selectedIndex = 0;
 
 	let isGrid = false;
@@ -13,6 +13,26 @@
 	}
 </script>
 
+<div>
+	<ul>
+		<li>
+			<b>{$_('dataset.labels.story')}</b>
+			{$_(`stories.${data.item.story}.title`)}
+		</li>
+		<li>
+			<b>{$_('dataset.labels.prompt')}</b>
+			{data.item.prompt}
+		</li>
+		<li>
+			<b>{$_('dataset.labels.generator')}</b>
+			{data.item.generator}
+		</li>
+		<li>
+			<b>{$_('dataset.labels.generatedText')}</b>
+			{data.item.generatedText}
+		</li>
+	</ul>
+</div>
 <div id="container">
 	<div id="view-mode">
 		{#key isGrid}
