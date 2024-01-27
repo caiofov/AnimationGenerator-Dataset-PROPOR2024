@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Play from '$lib/icons/Play.svelte';
 	import {
 		getGroupedDataset,
 		type GroupedGeneratorItems,
@@ -37,6 +38,7 @@
 			<th>{$_('dataset.labels.generator')}</th>
 			<th>{$_('dataset.labels.generatedText')}</th>
 			<th>ID</th>
+			<th></th>
 		</tr>
 		{#each Object.entries(dataset) as [story, storyGroup]}
 			<tr>
@@ -63,6 +65,9 @@
 							</td>
 							<td class="generated-id">
 								<p>{item.id}</p>
+							</td>
+							<td class="play-icon">
+								<Play />
 							</td>
 						</tr>
 					{/each}
@@ -119,6 +124,9 @@
 		text-align: center;
 		border-bottom: solid black 1px;
 		width: 10%;
+	}
+	.play-icon {
+		width: 1%;
 	}
 	#table-container {
 		justify-content: center;
