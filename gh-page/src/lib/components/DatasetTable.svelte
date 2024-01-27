@@ -5,8 +5,10 @@
 		type GroupedGeneratorItems,
 		type GroupedPromptItems
 	} from '$lib/utils/dataset';
+	import { contains } from '@fxts/core';
 	import { _ } from 'svelte-i18n';
 	const dataset = getGroupedDataset();
+	export let avaibleImages: string[];
 
 	function promptRows(storyGroup: GroupedGeneratorItems) {
 		const generators = Object.values(storyGroup);
@@ -66,9 +68,11 @@
 							<td class="generated-id">
 								<p>{item.id}</p>
 							</td>
-							<td class="play-icon">
-								<a href={`/${item.id}`}><Play /></a>
-							</td>
+							{#if avaibleImages.includes(item.id)}
+								<td class="play-icon">
+									<a href={`/${item.id}`}><Play /></a>
+								</td>
+							{/if}
 						</tr>
 					{/each}
 				{/each}
