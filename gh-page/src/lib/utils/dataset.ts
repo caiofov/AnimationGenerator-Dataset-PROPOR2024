@@ -4,9 +4,10 @@ import { groupBy } from '@fxts/core';
 
 type StoryType = 'Ala' | 'ChVe' | 'PePr' | 'PePa' | 'ViTe';
 type GeneratorType = 'Bard' | 'ChatGPT' | 'LuzIA';
+export type ResultIDType = keyof typeof DatasetItems;
 
 export interface DatasetItem {
-	id: keyof typeof DatasetItems;
+	id: ResultIDType;
 	story: StoryType;
 	generator: GeneratorType;
 	promptNumber: number;
@@ -19,7 +20,7 @@ export type GroupedGeneratorItems = Record<GeneratorType, DatasetItem[]>;
 export type GroupedPromptItems = Record<string, GroupedGeneratorItems>;
 export type GroupedStoryItems = Record<StoryType, GroupedPromptItems>; //grouped by prompt (id is prompt number) and generator
 
-export function splitId(id: keyof typeof DatasetItems) {
+export function splitId(id: ResultIDType) {
 	const [story, generator, prompt, result] = id.split('_');
 
 	return {
