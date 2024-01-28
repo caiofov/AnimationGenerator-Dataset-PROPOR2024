@@ -7,6 +7,7 @@
 	} from '$lib/utils/dataset';
 	import { _ } from 'svelte-i18n';
 	import type { PageServerData } from './$types';
+	import { base } from '$app/paths';
 
 	const dataset = getGroupedDataset();
 	export let data: PageServerData;
@@ -73,7 +74,7 @@
 							</td>
 							{#if avaibleImages.includes(item.id)}
 								<td class="play-icon">
-									<a href={`/${item.id}`}><Play /></a>
+									<a href={`${base}/${item.id}`}><Play /></a>
 								</td>
 							{/if}
 						</tr>

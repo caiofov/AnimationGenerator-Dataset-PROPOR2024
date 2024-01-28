@@ -1,12 +1,13 @@
 <script lang="ts">
 	import '$lib/assets/style.css';
 	import { _ } from 'svelte-i18n';
+	import { base } from '$app/paths';
 </script>
 
 <div id="container">
 	<div id="header">
 		<div>
-			<h2><a href="/">{$_('about.page.title')}</a></h2>
+			<h2><a href={base}>{$_('about.page.title')}</a></h2>
 			<p>{$_('about.page.content')} <a href="https://propor2024.citius.gal/"> (PROPOR 2024)</a></p>
 			<small>Caio de F. Oliveira, Artur O. R. Franco, Wellington Franco, José G. R. Maia</small>
 		</div>

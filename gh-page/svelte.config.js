@@ -14,7 +14,7 @@ const config = {
 		adapter: adapter()
 	},
 	paths: {
-		base: ""
+		base: process.env.NODE_ENV === 'production' ? '/AnimationGenerator-Dataset-PROPOR2024' : ""
 	}
 };
 
