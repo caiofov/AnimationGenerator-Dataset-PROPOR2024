@@ -1,0 +1,51 @@
+{
+    "stories": {
+        "Ala": {
+            "title": "Aladdin"
+        },
+        "ChVe": {
+            "title": "Little Red Riding Hood"
+        },
+        "PePr": {
+            "title": "Little Prince"
+        },
+        "PePa": {
+            "title": "Peter Pan"
+        },
+        "ViTe": {
+            "title": "Journey to the Center of the Earth"
+        }
+    },
+    "dataset": {
+        "labels": {
+            "story": "Story",
+            "prompt": "Prompt",
+            "generator": "Generator",
+            "generatedText": "Generated Text"
+        },
+        "image-player": {
+            "grid-off-tooltip": "View as grid",
+            "grid-on-tooltip": "View as slides"
+        }
+    },
+    "about": {
+        "page": {
+            "title": "Dataset - A Natural Language Text to Role-Playing Game Animation Generator",
+            "content": "Dataset for the paper 'A Natural Language Text to Role-Playing Game Animation Generator'"
+        },
+        "paper": {
+            "title": "About the paper",
+            "content": ""
+        },
+        "authors": {
+            "title": "Authors"
+        },
+        "conference": {
+            "title": "PROPOR 2024",
+            "content": ""
+        },
+        "itchio": {
+            "title": "See results on itch.io"
+        }
+    }
+}

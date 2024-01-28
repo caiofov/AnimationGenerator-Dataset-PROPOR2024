@@ -9,16 +9,30 @@
  * @text Directory to save frames
  * @type text
  * 
+ * @param base64Dir
+ * @text Relative directory (to saveDir) to save base64 files. Empty - do not save base64 files
+ * @type text
+ * @default base64
+ * 
+ * @param pngDir
+ * @text Relative directory (to saveDir) to save png files. Empty - save directly to 'saveDir'
+ * @type text
+ * @default frames
+ * 
  * @param saveRate
  * @text Number of frames to save per frame count
  * @type number
  * @min 1
  * @default 1
+ * 
  */
 const fs = require('fs');
 const exportFramesParams = PluginManager.parameters('ExportFrames')
 /** @type {string} */
 const DIR_PATH = exportFramesParams["saveDir"]
+const DIR_PNG = exportFramesParams["pngDir"]
+const DIR_BASE64 = exportFramesParams["base64Dir"]
+
 const SAVE_RATE = Number(exportFramesParams["saveRate"])
 
 if (!fs.existsSync(DIR_PATH)) fs.mkdirSync(DIR_PATH);
@@ -53,10 +67,13 @@ class FrameStorage {
     _createDirs() {
         this.parentDir = `${DIR_PATH}/${this.mapName}`
         if (!fs.existsSync(this.parentDir)) fs.mkdirSync(this.parentDir);
-        this.framesDir = `${this.parentDir}/frames`
-        this.base64Dir = `${this.parentDir}/base64`
+        this.framesDir = `${this.parentDir}/${DIR_PNG}`
         if (!fs.existsSync(this.framesDir)) fs.mkdirSync(this.framesDir);
-        if (!fs.existsSync(this.base64Dir)) fs.mkdirSync(this.base64Dir);
+
+        if (DIR_BASE64) {
+            this.base64Dir = `${this.parentDir}/${DIR_BASE64}`
+            if (!fs.existsSync(this.base64Dir)) fs.mkdirSync(this.base64Dir);
+        }
     }
 
     /**
@@ -93,7 +110,7 @@ class FrameStorage {
      * @param {Frame} frame 
      */
     downloadFrameToLocalFiles(frame) {
-        fs.writeFileSync(`${this.base64Dir}/${frame.name}.txt`, frame.dataURL);
+        if (this.base64Dir) fs.writeFileSync(`${this.base64Dir}/${frame.name}.txt`, frame.dataURL);
         const data = frame.dataURL.split(",")[1];
         fs.writeFileSync(`${this.framesDir}/${frame.name}.png`, data, 'base64');
     }
