@@ -12,7 +12,7 @@
 	const dataset = getGroupedDataset();
 	export let data: PageServerData;
 
-	const avaibleImages: string[] = data.avaibleImages;
+	const availableImages: string[] = data.availableImages;
 
 	function promptRows(storyGroup: GroupedGeneratorItems) {
 		const generators = Object.values(storyGroup);
@@ -72,7 +72,7 @@
 							<td class="generated-id">
 								<p>{item.id}</p>
 							</td>
-							{#if avaibleImages.includes(item.id)}
+							{#if availableImages.includes(item.id)}
 								<td class="play-icon">
 									<a href={`${base}/${item.id}`}><Play /></a>
 								</td>
