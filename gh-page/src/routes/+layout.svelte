@@ -6,7 +6,7 @@
 <div id="container">
 	<div id="header">
 		<div>
-			<h2>{$_('about.page.title')}</h2>
+			<h2><a href="/">{$_('about.page.title')}</a></h2>
 			<p>{$_('about.page.content')} <a href="https://propor2024.citius.gal/"> (PROPOR 2024)</a></p>
 			<small>Caio de F. Oliveira, Artur O. R. Franco, Wellington Franco, José G. R. Maia</small>
 		</div>
@@ -45,6 +45,13 @@
 		border-bottom: #868585 solid 2px;
 		border-radius: 10px;
 		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+	}
+	h2 > a {
+		text-decoration: none;
+		color: var(--blue);
+	}
+	h2 > a:hover {
+		text-decoration: underline;
 	}
 	iframe {
 		border-radius: 20px;

@@ -93,7 +93,7 @@
 	ul {
 		border-radius: 5px;
 		display: flex;
-		box-shadow: 1px 3px 3px 3px rgba(64, 64, 64, 0.5);
+		border: solid 1px black;
 	}
 
 	li {
@@ -109,9 +109,9 @@
 		border-radius: 5px;
 	}
 	.summary-item:hover {
-		border-left: solid 3px var(--blue);
-		border-right: solid 3px var(--blue);
-		transition: 0.2s;
+		border-left: solid 1px var(--blue);
+		border-right: solid 1px var(--blue);
+		transition: 0.1s;
 	}
 	.prompt {
 		width: 10%;
