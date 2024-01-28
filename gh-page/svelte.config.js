@@ -14,8 +14,11 @@ const config = {
 		adapter: adapter()
 	},
 	paths: {
-		base: process.env.NODE_ENV === 'production' ? '/AnimationGenerator-Dataset-PROPOR2024' : ""
+		base: process.env.NODE_ENV === 'production' ? '/AnimationGenerator-Dataset-PROPOR2024' : "",
+		relative: false
+
 	}
+
 };
 
 export default config;
