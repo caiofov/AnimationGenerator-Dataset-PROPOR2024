@@ -5,9 +5,11 @@ import {
   ButtonGroup,
   Card,
   CardContent,
+  CardMedia,
   Chip,
   Divider,
   Grid2,
+  Typography,
 } from "@mui/material";
 
 const buttons = [
@@ -25,15 +27,25 @@ const DatasetGrid: React.FC<{ dataset: DatasetType[] }> = ({ dataset }) => {
     <Grid2 container spacing={2}>
       {dataset.map(({ id, prompt, generatedText }) => {
         return (
-          <Grid2 size={4} height="100%">
+          <Grid2 size={4} key={id}>
             <Card key={id}>
-              <Divider>
-                <Chip label={id} />
+              <CardMedia
+                component="img"
+                height="100%"
+                src={`/src/assets/dataset/frames/${id}/${id}_frame10.png`}
+                alt={`${id}_frame0.png`}
+              />
+              <Divider sx={{ marginTop: "15px" }}>
+                <Chip label={<Typography>{id}</Typography>} />
               </Divider>
               <CardContent>
-                <Divider textAlign="left">Prompt</Divider>
+                <Divider sx={{ marginTop: "15px" }} textAlign="left">
+                  Prompt
+                </Divider>
                 {prompt}
-                <Divider textAlign="left">Generated text</Divider>
+                <Divider sx={{ marginTop: "15px" }} textAlign="left">
+                  Generated text
+                </Divider>
                 {generatedText}
               </CardContent>
             </Card>
@@ -58,6 +70,7 @@ export const DatasetDisplay = () => {
       <ButtonGroup>
         {buttons.map(({ value, name }) => (
           <Button
+            key={value}
             variant={filter === value ? "contained" : "outlined"}
             onClick={() => {
               dispatch({ filter: value });
