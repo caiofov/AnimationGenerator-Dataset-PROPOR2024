@@ -10,7 +10,16 @@ export async function updateDatasetFile() {
 
     console.info("Reading image dirs...");
     readdirSync(imagePaths).map((folder) => {
-      json[folder]["images"] = readdirSync(path.resolve(imagePaths, folder));
+      const images = readdirSync(path.resolve(imagePaths, folder)).sort(
+        (a, b) => {
+          let matchA = a.match(/frame(\d+)/);
+          let matchB = b.match(/frame(\d+)/);
+          if (!matchA) throw "Invalid image name: " + a;
+          if (!matchB) throw "Invalid image name: " + b;
+          return Number(matchA[1]) - Number(matchB[1]);
+        }
+      );
+      json[folder]["images"] = images;
     });
 
     console.info("Updating dataset json file...");
