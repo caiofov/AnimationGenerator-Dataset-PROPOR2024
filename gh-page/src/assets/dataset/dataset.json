@@ -1,302 +1,1467 @@
 {
     "Ala_gBard_p1_r51": {
         "prompt": "Descreva de forma resumida o encontro entre Aladdin e o Gênio da lâmpada desde a entrada na caverna em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladim, um jovem pobre, entra na caverna das Maravilhas com o intuito de roubar uma lâmpada mágica. Ao esfregar a lâmpada, ele liberta um gênio que lhe concede três desejos."
+        "generatedText": "Aladim, um jovem pobre, entra na caverna das Maravilhas com o intuito de roubar uma lâmpada mágica. Ao esfregar a lâmpada, ele liberta um gênio que lhe concede três desejos.",
+        "images": [
+            "Ala_gBard_p1_r51_frame0.png",
+            "Ala_gBard_p1_r51_frame1.png",
+            "Ala_gBard_p1_r51_frame10.png",
+            "Ala_gBard_p1_r51_frame11.png",
+            "Ala_gBard_p1_r51_frame12.png",
+            "Ala_gBard_p1_r51_frame13.png",
+            "Ala_gBard_p1_r51_frame14.png",
+            "Ala_gBard_p1_r51_frame15.png",
+            "Ala_gBard_p1_r51_frame16.png",
+            "Ala_gBard_p1_r51_frame17.png",
+            "Ala_gBard_p1_r51_frame2.png",
+            "Ala_gBard_p1_r51_frame3.png",
+            "Ala_gBard_p1_r51_frame4.png",
+            "Ala_gBard_p1_r51_frame5.png",
+            "Ala_gBard_p1_r51_frame6.png",
+            "Ala_gBard_p1_r51_frame7.png",
+            "Ala_gBard_p1_r51_frame8.png",
+            "Ala_gBard_p1_r51_frame9.png"
+        ]
     },
     "Ala_gChatGPT_p1_r48": {
         "prompt": "Descreva de forma resumida o encontro entre Aladdin e o Gênio da lâmpada desde a entrada na caverna em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladdin adentrou a caverna, onde encontrou a lâmpada mágica e libertou o Gênio, desencadeando um turbilhão de eventos extraordinários que alteraram radicalmente o curso de suas vidas, redefinindo destinos com desejos realizados."
+        "generatedText": "Aladdin adentrou a caverna, onde encontrou a lâmpada mágica e libertou o Gênio, desencadeando um turbilhão de eventos extraordinários que alteraram radicalmente o curso de suas vidas, redefinindo destinos com desejos realizados.",
+        "images": [
+            "Ala_gChatGPT_p1_r48_frame0.png",
+            "Ala_gChatGPT_p1_r48_frame1.png",
+            "Ala_gChatGPT_p1_r48_frame10.png",
+            "Ala_gChatGPT_p1_r48_frame11.png",
+            "Ala_gChatGPT_p1_r48_frame12.png",
+            "Ala_gChatGPT_p1_r48_frame13.png",
+            "Ala_gChatGPT_p1_r48_frame14.png",
+            "Ala_gChatGPT_p1_r48_frame15.png",
+            "Ala_gChatGPT_p1_r48_frame16.png",
+            "Ala_gChatGPT_p1_r48_frame17.png",
+            "Ala_gChatGPT_p1_r48_frame2.png",
+            "Ala_gChatGPT_p1_r48_frame3.png",
+            "Ala_gChatGPT_p1_r48_frame4.png",
+            "Ala_gChatGPT_p1_r48_frame5.png",
+            "Ala_gChatGPT_p1_r48_frame6.png",
+            "Ala_gChatGPT_p1_r48_frame7.png",
+            "Ala_gChatGPT_p1_r48_frame8.png",
+            "Ala_gChatGPT_p1_r48_frame9.png"
+        ]
     },
     "Ala_gChatGPT_p1_r49": {
         "prompt": "Descreva de forma resumida o encontro entre Aladdin e o Gênio da lâmpada desde a entrada na caverna em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladdin entra na caverna, evita armadilhas, encontra a lâmpada, esfrega-a, liberta o Gênio. Gênio concede desejos, Aladdin pede riqueza e se apaixona por Jasmine."
+        "generatedText": "Aladdin entra na caverna, evita armadilhas, encontra a lâmpada, esfrega-a, liberta o Gênio. Gênio concede desejos, Aladdin pede riqueza e se apaixona por Jasmine.",
+        "images": [
+            "Ala_gChatGPT_p1_r49_frame0.png",
+            "Ala_gChatGPT_p1_r49_frame1.png",
+            "Ala_gChatGPT_p1_r49_frame10.png",
+            "Ala_gChatGPT_p1_r49_frame11.png",
+            "Ala_gChatGPT_p1_r49_frame12.png",
+            "Ala_gChatGPT_p1_r49_frame13.png",
+            "Ala_gChatGPT_p1_r49_frame14.png",
+            "Ala_gChatGPT_p1_r49_frame15.png",
+            "Ala_gChatGPT_p1_r49_frame16.png",
+            "Ala_gChatGPT_p1_r49_frame17.png",
+            "Ala_gChatGPT_p1_r49_frame18.png",
+            "Ala_gChatGPT_p1_r49_frame19.png",
+            "Ala_gChatGPT_p1_r49_frame2.png",
+            "Ala_gChatGPT_p1_r49_frame20.png",
+            "Ala_gChatGPT_p1_r49_frame21.png",
+            "Ala_gChatGPT_p1_r49_frame22.png",
+            "Ala_gChatGPT_p1_r49_frame23.png",
+            "Ala_gChatGPT_p1_r49_frame3.png",
+            "Ala_gChatGPT_p1_r49_frame4.png",
+            "Ala_gChatGPT_p1_r49_frame5.png",
+            "Ala_gChatGPT_p1_r49_frame6.png",
+            "Ala_gChatGPT_p1_r49_frame7.png",
+            "Ala_gChatGPT_p1_r49_frame8.png",
+            "Ala_gChatGPT_p1_r49_frame9.png"
+        ]
     },
     "Ala_gChatGPT_p1_r50": {
         "prompt": "Descreva de forma resumida o encontro entre Aladdin e o Gênio da lâmpada desde a entrada na caverna em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladdin adentrou a caverna, desafiou armadilhas perigosas e alcançou a lâmpada mágica, liberando o Gênio que concedeu desejos, alterando drasticamente o curso de suas vidas."
+        "generatedText": "Aladdin adentrou a caverna, desafiou armadilhas perigosas e alcançou a lâmpada mágica, liberando o Gênio que concedeu desejos, alterando drasticamente o curso de suas vidas.",
+        "images": [
+            "Ala_gChatGPT_p1_r50_frame0.png",
+            "Ala_gChatGPT_p1_r50_frame1.png",
+            "Ala_gChatGPT_p1_r50_frame10.png",
+            "Ala_gChatGPT_p1_r50_frame11.png",
+            "Ala_gChatGPT_p1_r50_frame12.png",
+            "Ala_gChatGPT_p1_r50_frame13.png",
+            "Ala_gChatGPT_p1_r50_frame14.png",
+            "Ala_gChatGPT_p1_r50_frame15.png",
+            "Ala_gChatGPT_p1_r50_frame16.png",
+            "Ala_gChatGPT_p1_r50_frame17.png",
+            "Ala_gChatGPT_p1_r50_frame18.png",
+            "Ala_gChatGPT_p1_r50_frame19.png",
+            "Ala_gChatGPT_p1_r50_frame2.png",
+            "Ala_gChatGPT_p1_r50_frame20.png",
+            "Ala_gChatGPT_p1_r50_frame21.png",
+            "Ala_gChatGPT_p1_r50_frame3.png",
+            "Ala_gChatGPT_p1_r50_frame4.png",
+            "Ala_gChatGPT_p1_r50_frame5.png",
+            "Ala_gChatGPT_p1_r50_frame6.png",
+            "Ala_gChatGPT_p1_r50_frame7.png",
+            "Ala_gChatGPT_p1_r50_frame8.png",
+            "Ala_gChatGPT_p1_r50_frame9.png"
+        ]
     },
     "Ala_gLuzIA_p1_r52": {
         "prompt": "Descreva de forma resumida o encontro entre Aladdin e o Gênio da lâmpada desde a entrada na caverna em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladdin entrou na caverna, encontrou a lâmpada, esfregou-a e o Gênio apareceu. Ele fez um pedido e o Gênio o concedeu, levando-o para casa com a lâmpada."
+        "generatedText": "Aladdin entrou na caverna, encontrou a lâmpada, esfregou-a e o Gênio apareceu. Ele fez um pedido e o Gênio o concedeu, levando-o para casa com a lâmpada.",
+        "images": [
+            "Ala_gLuzIA_p1_r52_frame0.png",
+            "Ala_gLuzIA_p1_r52_frame1.png",
+            "Ala_gLuzIA_p1_r52_frame10.png",
+            "Ala_gLuzIA_p1_r52_frame11.png",
+            "Ala_gLuzIA_p1_r52_frame12.png",
+            "Ala_gLuzIA_p1_r52_frame13.png",
+            "Ala_gLuzIA_p1_r52_frame14.png",
+            "Ala_gLuzIA_p1_r52_frame15.png",
+            "Ala_gLuzIA_p1_r52_frame16.png",
+            "Ala_gLuzIA_p1_r52_frame17.png",
+            "Ala_gLuzIA_p1_r52_frame18.png",
+            "Ala_gLuzIA_p1_r52_frame19.png",
+            "Ala_gLuzIA_p1_r52_frame2.png",
+            "Ala_gLuzIA_p1_r52_frame20.png",
+            "Ala_gLuzIA_p1_r52_frame21.png",
+            "Ala_gLuzIA_p1_r52_frame22.png",
+            "Ala_gLuzIA_p1_r52_frame3.png",
+            "Ala_gLuzIA_p1_r52_frame4.png",
+            "Ala_gLuzIA_p1_r52_frame5.png",
+            "Ala_gLuzIA_p1_r52_frame6.png",
+            "Ala_gLuzIA_p1_r52_frame7.png",
+            "Ala_gLuzIA_p1_r52_frame8.png",
+            "Ala_gLuzIA_p1_r52_frame9.png"
+        ]
     },
     "Ala_gBard_p2_r46": {
         "prompt": "Reescreva de forma resumida em uma frase o encontro entre Aladdin e o Gênio da lâmpada em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladim, um jovem pobre, esfrega uma lâmpada mágica e liberta um gênio que lhe concede três desejos."
+        "generatedText": "Aladim, um jovem pobre, esfrega uma lâmpada mágica e liberta um gênio que lhe concede três desejos.",
+        "images": [
+            "Ala_gBard_p2_r46_frame0.png",
+            "Ala_gBard_p2_r46_frame1.png",
+            "Ala_gBard_p2_r46_frame10.png",
+            "Ala_gBard_p2_r46_frame11.png",
+            "Ala_gBard_p2_r46_frame12.png",
+            "Ala_gBard_p2_r46_frame13.png",
+            "Ala_gBard_p2_r46_frame14.png",
+            "Ala_gBard_p2_r46_frame15.png",
+            "Ala_gBard_p2_r46_frame16.png",
+            "Ala_gBard_p2_r46_frame17.png",
+            "Ala_gBard_p2_r46_frame18.png",
+            "Ala_gBard_p2_r46_frame19.png",
+            "Ala_gBard_p2_r46_frame2.png",
+            "Ala_gBard_p2_r46_frame3.png",
+            "Ala_gBard_p2_r46_frame4.png",
+            "Ala_gBard_p2_r46_frame5.png",
+            "Ala_gBard_p2_r46_frame6.png",
+            "Ala_gBard_p2_r46_frame7.png",
+            "Ala_gBard_p2_r46_frame8.png",
+            "Ala_gBard_p2_r46_frame9.png"
+        ]
     },
     "Ala_gChatGPT_p2_r43": {
         "prompt": "Reescreva de forma resumida em uma frase o encontro entre Aladdin e o Gênio da lâmpada em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladdin, ao invadir a Caverna das Maravilhas, descobre a lâmpada mágica e, ao esfregá-la, libera o Gênio, um ser carismático que concede três desejos, marcando o início de uma parceria repleta de humor e surpresas."
+        "generatedText": "Aladdin, ao invadir a Caverna das Maravilhas, descobre a lâmpada mágica e, ao esfregá-la, libera o Gênio, um ser carismático que concede três desejos, marcando o início de uma parceria repleta de humor e surpresas.",
+        "images": [
+            "Ala_gChatGPT_p2_r43_frame0.png",
+            "Ala_gChatGPT_p2_r43_frame1.png",
+            "Ala_gChatGPT_p2_r43_frame10.png",
+            "Ala_gChatGPT_p2_r43_frame11.png",
+            "Ala_gChatGPT_p2_r43_frame12.png",
+            "Ala_gChatGPT_p2_r43_frame13.png",
+            "Ala_gChatGPT_p2_r43_frame14.png",
+            "Ala_gChatGPT_p2_r43_frame15.png",
+            "Ala_gChatGPT_p2_r43_frame16.png",
+            "Ala_gChatGPT_p2_r43_frame17.png",
+            "Ala_gChatGPT_p2_r43_frame18.png",
+            "Ala_gChatGPT_p2_r43_frame19.png",
+            "Ala_gChatGPT_p2_r43_frame2.png",
+            "Ala_gChatGPT_p2_r43_frame3.png",
+            "Ala_gChatGPT_p2_r43_frame4.png",
+            "Ala_gChatGPT_p2_r43_frame5.png",
+            "Ala_gChatGPT_p2_r43_frame6.png",
+            "Ala_gChatGPT_p2_r43_frame7.png",
+            "Ala_gChatGPT_p2_r43_frame8.png",
+            "Ala_gChatGPT_p2_r43_frame9.png"
+        ]
     },
     "Ala_gChatGPT_p2_r44": {
         "prompt": "Reescreva de forma resumida em uma frase o encontro entre Aladdin e o Gênio da lâmpada em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladdin, ao esfregar a lâmpada mágica, convocou o Gênio, desencadeando um encontro surpreendente repleto de desejos e magia."
+        "generatedText": "Aladdin, ao esfregar a lâmpada mágica, convocou o Gênio, desencadeando um encontro surpreendente repleto de desejos e magia.",
+        "images": [
+            "Ala_gChatGPT_p2_r44_frame0.png",
+            "Ala_gChatGPT_p2_r44_frame1.png",
+            "Ala_gChatGPT_p2_r44_frame10.png",
+            "Ala_gChatGPT_p2_r44_frame11.png",
+            "Ala_gChatGPT_p2_r44_frame12.png",
+            "Ala_gChatGPT_p2_r44_frame13.png",
+            "Ala_gChatGPT_p2_r44_frame14.png",
+            "Ala_gChatGPT_p2_r44_frame15.png",
+            "Ala_gChatGPT_p2_r44_frame16.png",
+            "Ala_gChatGPT_p2_r44_frame17.png",
+            "Ala_gChatGPT_p2_r44_frame18.png",
+            "Ala_gChatGPT_p2_r44_frame19.png",
+            "Ala_gChatGPT_p2_r44_frame2.png",
+            "Ala_gChatGPT_p2_r44_frame20.png",
+            "Ala_gChatGPT_p2_r44_frame3.png",
+            "Ala_gChatGPT_p2_r44_frame4.png",
+            "Ala_gChatGPT_p2_r44_frame5.png",
+            "Ala_gChatGPT_p2_r44_frame6.png",
+            "Ala_gChatGPT_p2_r44_frame7.png",
+            "Ala_gChatGPT_p2_r44_frame8.png",
+            "Ala_gChatGPT_p2_r44_frame9.png"
+        ]
     },
     "Ala_gChatGPT_p2_r45": {
         "prompt": "Reescreva de forma resumida em uma frase o encontro entre Aladdin e o Gênio da lâmpada em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladdin libertou o Gênio da lâmpada, desencadeando uma explosão de poder mágico que transformou radicalmente suas vidas."
+        "generatedText": "Aladdin libertou o Gênio da lâmpada, desencadeando uma explosão de poder mágico que transformou radicalmente suas vidas.",
+        "images": [
+            "Ala_gChatGPT_p2_r45_frame0.png",
+            "Ala_gChatGPT_p2_r45_frame1.png",
+            "Ala_gChatGPT_p2_r45_frame10.png",
+            "Ala_gChatGPT_p2_r45_frame11.png",
+            "Ala_gChatGPT_p2_r45_frame12.png",
+            "Ala_gChatGPT_p2_r45_frame13.png",
+            "Ala_gChatGPT_p2_r45_frame14.png",
+            "Ala_gChatGPT_p2_r45_frame15.png",
+            "Ala_gChatGPT_p2_r45_frame16.png",
+            "Ala_gChatGPT_p2_r45_frame2.png",
+            "Ala_gChatGPT_p2_r45_frame3.png",
+            "Ala_gChatGPT_p2_r45_frame4.png",
+            "Ala_gChatGPT_p2_r45_frame5.png",
+            "Ala_gChatGPT_p2_r45_frame6.png",
+            "Ala_gChatGPT_p2_r45_frame7.png",
+            "Ala_gChatGPT_p2_r45_frame8.png",
+            "Ala_gChatGPT_p2_r45_frame9.png"
+        ]
     },
     "Ala_gLuzIA_p2_r47": {
         "prompt": "Reescreva de forma resumida em uma frase o encontro entre Aladdin e o Gênio da lâmpada em um parágrafo, utilizando verbos télicos e dinâmicos.",
-        "generatedText": "Aladdin encontrou o Gênio da lâmpada, fez um pedido, e foi surpreendido pela realização do desejo."
+        "generatedText": "Aladdin encontrou o Gênio da lâmpada, fez um pedido, e foi surpreendido pela realização do desejo.",
+        "images": [
+            "Ala_gLuzIA_p2_r47_frame0.png",
+            "Ala_gLuzIA_p2_r47_frame1.png",
+            "Ala_gLuzIA_p2_r47_frame10.png",
+            "Ala_gLuzIA_p2_r47_frame11.png",
+            "Ala_gLuzIA_p2_r47_frame12.png",
+            "Ala_gLuzIA_p2_r47_frame13.png",
+            "Ala_gLuzIA_p2_r47_frame14.png",
+            "Ala_gLuzIA_p2_r47_frame15.png",
+            "Ala_gLuzIA_p2_r47_frame16.png",
+            "Ala_gLuzIA_p2_r47_frame17.png",
+            "Ala_gLuzIA_p2_r47_frame18.png",
+            "Ala_gLuzIA_p2_r47_frame19.png",
+            "Ala_gLuzIA_p2_r47_frame2.png",
+            "Ala_gLuzIA_p2_r47_frame20.png",
+            "Ala_gLuzIA_p2_r47_frame21.png",
+            "Ala_gLuzIA_p2_r47_frame22.png",
+            "Ala_gLuzIA_p2_r47_frame3.png",
+            "Ala_gLuzIA_p2_r47_frame4.png",
+            "Ala_gLuzIA_p2_r47_frame5.png",
+            "Ala_gLuzIA_p2_r47_frame6.png",
+            "Ala_gLuzIA_p2_r47_frame7.png",
+            "Ala_gLuzIA_p2_r47_frame8.png",
+            "Ala_gLuzIA_p2_r47_frame9.png"
+        ]
     },
     "ChVe_gChatGPT_p1_r8": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos que descreva o encontro da chapeuzinho vermelho com o lobo mau sem orações subordinadas",
-        "generatedText": "Chapeuzinho vermelho avançou pela floresta. Ela viu o lobo mau espreitando atrás das árvores. Ela correu, ele a perseguiu. Ela gritou, ele rugiu. Os caçadores apareceram e o lobo fugiu."
+        "generatedText": "Chapeuzinho vermelho avançou pela floresta. Ela viu o lobo mau espreitando atrás das árvores. Ela correu, ele a perseguiu. Ela gritou, ele rugiu. Os caçadores apareceram e o lobo fugiu.",
+        "images": [
+            "ChVe_gChatGPT_p1_r8_frame0.png",
+            "ChVe_gChatGPT_p1_r8_frame1.png",
+            "ChVe_gChatGPT_p1_r8_frame10.png",
+            "ChVe_gChatGPT_p1_r8_frame11.png",
+            "ChVe_gChatGPT_p1_r8_frame12.png",
+            "ChVe_gChatGPT_p1_r8_frame13.png",
+            "ChVe_gChatGPT_p1_r8_frame14.png",
+            "ChVe_gChatGPT_p1_r8_frame15.png",
+            "ChVe_gChatGPT_p1_r8_frame16.png",
+            "ChVe_gChatGPT_p1_r8_frame17.png",
+            "ChVe_gChatGPT_p1_r8_frame18.png",
+            "ChVe_gChatGPT_p1_r8_frame19.png",
+            "ChVe_gChatGPT_p1_r8_frame2.png",
+            "ChVe_gChatGPT_p1_r8_frame20.png",
+            "ChVe_gChatGPT_p1_r8_frame3.png",
+            "ChVe_gChatGPT_p1_r8_frame4.png",
+            "ChVe_gChatGPT_p1_r8_frame5.png",
+            "ChVe_gChatGPT_p1_r8_frame6.png",
+            "ChVe_gChatGPT_p1_r8_frame7.png",
+            "ChVe_gChatGPT_p1_r8_frame8.png",
+            "ChVe_gChatGPT_p1_r8_frame9.png"
+        ]
     },
     "ChVe_gLuzIA_p1_r7": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos que descreva o encontro da chapeuzinho vermelho com o lobo mau sem orações subordinadas",
-        "generatedText": "Chapeuzinho vermelho encontrou o lobo mau. Ela gritou. Ele correu. Ela fugiu. Ele a perseguiu. Ela se escondeu. Ele a procurou. Ela o enganou. Ele desistiu. Ela escapou."
+        "generatedText": "Chapeuzinho vermelho encontrou o lobo mau. Ela gritou. Ele correu. Ela fugiu. Ele a perseguiu. Ela se escondeu. Ele a procurou. Ela o enganou. Ele desistiu. Ela escapou.",
+        "images": [
+            "ChVe_gLuzIA_p1_r7_frame0.png",
+            "ChVe_gLuzIA_p1_r7_frame1.png",
+            "ChVe_gLuzIA_p1_r7_frame10.png",
+            "ChVe_gLuzIA_p1_r7_frame11.png",
+            "ChVe_gLuzIA_p1_r7_frame12.png",
+            "ChVe_gLuzIA_p1_r7_frame13.png",
+            "ChVe_gLuzIA_p1_r7_frame14.png",
+            "ChVe_gLuzIA_p1_r7_frame15.png",
+            "ChVe_gLuzIA_p1_r7_frame16.png",
+            "ChVe_gLuzIA_p1_r7_frame17.png",
+            "ChVe_gLuzIA_p1_r7_frame18.png",
+            "ChVe_gLuzIA_p1_r7_frame19.png",
+            "ChVe_gLuzIA_p1_r7_frame2.png",
+            "ChVe_gLuzIA_p1_r7_frame20.png",
+            "ChVe_gLuzIA_p1_r7_frame21.png",
+            "ChVe_gLuzIA_p1_r7_frame22.png",
+            "ChVe_gLuzIA_p1_r7_frame23.png",
+            "ChVe_gLuzIA_p1_r7_frame24.png",
+            "ChVe_gLuzIA_p1_r7_frame25.png",
+            "ChVe_gLuzIA_p1_r7_frame26.png",
+            "ChVe_gLuzIA_p1_r7_frame27.png",
+            "ChVe_gLuzIA_p1_r7_frame28.png",
+            "ChVe_gLuzIA_p1_r7_frame29.png",
+            "ChVe_gLuzIA_p1_r7_frame3.png",
+            "ChVe_gLuzIA_p1_r7_frame30.png",
+            "ChVe_gLuzIA_p1_r7_frame31.png",
+            "ChVe_gLuzIA_p1_r7_frame32.png",
+            "ChVe_gLuzIA_p1_r7_frame33.png",
+            "ChVe_gLuzIA_p1_r7_frame34.png",
+            "ChVe_gLuzIA_p1_r7_frame35.png",
+            "ChVe_gLuzIA_p1_r7_frame36.png",
+            "ChVe_gLuzIA_p1_r7_frame37.png",
+            "ChVe_gLuzIA_p1_r7_frame4.png",
+            "ChVe_gLuzIA_p1_r7_frame5.png",
+            "ChVe_gLuzIA_p1_r7_frame6.png",
+            "ChVe_gLuzIA_p1_r7_frame7.png",
+            "ChVe_gLuzIA_p1_r7_frame8.png",
+            "ChVe_gLuzIA_p1_r7_frame9.png"
+        ]
     },
     "ChVe_gChatGPT_p2_r9": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro da chapeuzinho vermelho com o lobo mau",
-        "generatedText": "Chapeuzinho vermelho adentrou a floresta. Ela viu o lobo mau. Ela correu, ele a perseguiu. Ela gritou, ele rugiu. Eventualmente, o lobo a alcançou."
+        "generatedText": "Chapeuzinho vermelho adentrou a floresta. Ela viu o lobo mau. Ela correu, ele a perseguiu. Ela gritou, ele rugiu. Eventualmente, o lobo a alcançou.",
+        "images": [
+            "ChVe_gChatGPT_p2_r9_frame0.png",
+            "ChVe_gChatGPT_p2_r9_frame1.png",
+            "ChVe_gChatGPT_p2_r9_frame10.png",
+            "ChVe_gChatGPT_p2_r9_frame11.png",
+            "ChVe_gChatGPT_p2_r9_frame12.png",
+            "ChVe_gChatGPT_p2_r9_frame13.png",
+            "ChVe_gChatGPT_p2_r9_frame14.png",
+            "ChVe_gChatGPT_p2_r9_frame15.png",
+            "ChVe_gChatGPT_p2_r9_frame2.png",
+            "ChVe_gChatGPT_p2_r9_frame3.png",
+            "ChVe_gChatGPT_p2_r9_frame4.png",
+            "ChVe_gChatGPT_p2_r9_frame5.png",
+            "ChVe_gChatGPT_p2_r9_frame6.png",
+            "ChVe_gChatGPT_p2_r9_frame7.png",
+            "ChVe_gChatGPT_p2_r9_frame8.png",
+            "ChVe_gChatGPT_p2_r9_frame9.png"
+        ]
     },
     "ChVe_gChatGPT_p2_r10": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro da chapeuzinho vermelho com o lobo mau",
-        "generatedText": "Chapeuzinho vermelho avançou na floresta e se deparou com o lobo mau. Ela correu, ele a perseguiu. Ela gritou, ele se aproximou. O lobo finalmente a alcançou."
+        "generatedText": "Chapeuzinho vermelho avançou na floresta e se deparou com o lobo mau. Ela correu, ele a perseguiu. Ela gritou, ele se aproximou. O lobo finalmente a alcançou.",
+        "images": [
+            "ChVe_gChatGPT_p2_r10_frame0.png",
+            "ChVe_gChatGPT_p2_r10_frame1.png",
+            "ChVe_gChatGPT_p2_r10_frame10.png",
+            "ChVe_gChatGPT_p2_r10_frame11.png",
+            "ChVe_gChatGPT_p2_r10_frame12.png",
+            "ChVe_gChatGPT_p2_r10_frame13.png",
+            "ChVe_gChatGPT_p2_r10_frame14.png",
+            "ChVe_gChatGPT_p2_r10_frame15.png",
+            "ChVe_gChatGPT_p2_r10_frame16.png",
+            "ChVe_gChatGPT_p2_r10_frame17.png",
+            "ChVe_gChatGPT_p2_r10_frame18.png",
+            "ChVe_gChatGPT_p2_r10_frame19.png",
+            "ChVe_gChatGPT_p2_r10_frame2.png",
+            "ChVe_gChatGPT_p2_r10_frame20.png",
+            "ChVe_gChatGPT_p2_r10_frame21.png",
+            "ChVe_gChatGPT_p2_r10_frame3.png",
+            "ChVe_gChatGPT_p2_r10_frame4.png",
+            "ChVe_gChatGPT_p2_r10_frame5.png",
+            "ChVe_gChatGPT_p2_r10_frame6.png",
+            "ChVe_gChatGPT_p2_r10_frame7.png",
+            "ChVe_gChatGPT_p2_r10_frame8.png",
+            "ChVe_gChatGPT_p2_r10_frame9.png"
+        ]
     },
     "ChVe_gChatGPT_p2_r11": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro da chapeuzinho vermelho com o lobo mau",
-        "generatedText": "Chapeuzinho vermelho adentrou a floresta. Ela avistou o lobo mau. Ela fugiu, ele a perseguiu. Ela gritou, ele a alcançou."
+        "generatedText": "Chapeuzinho vermelho adentrou a floresta. Ela avistou o lobo mau. Ela fugiu, ele a perseguiu. Ela gritou, ele a alcançou.",
+        "images": [
+            "ChVe_gChatGPT_p2_r11_frame0.png",
+            "ChVe_gChatGPT_p2_r11_frame1.png",
+            "ChVe_gChatGPT_p2_r11_frame10.png",
+            "ChVe_gChatGPT_p2_r11_frame11.png",
+            "ChVe_gChatGPT_p2_r11_frame12.png",
+            "ChVe_gChatGPT_p2_r11_frame13.png",
+            "ChVe_gChatGPT_p2_r11_frame2.png",
+            "ChVe_gChatGPT_p2_r11_frame3.png",
+            "ChVe_gChatGPT_p2_r11_frame4.png",
+            "ChVe_gChatGPT_p2_r11_frame5.png",
+            "ChVe_gChatGPT_p2_r11_frame6.png",
+            "ChVe_gChatGPT_p2_r11_frame7.png",
+            "ChVe_gChatGPT_p2_r11_frame8.png",
+            "ChVe_gChatGPT_p2_r11_frame9.png"
+        ]
     },
     "ChVe_gLuzIA_p2_r12": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro da chapeuzinho vermelho com o lobo mau",
-        "generatedText": "Chapeuzinho vermelho avistou o lobo mau. Ela correu. Ele a alcançou. Ela gritou. Ele a assustou. Ela escapou. Ele a perseguiu. Ela o enganou. Ele desistiu. Ela se escondeu. Ele a procurou. Ela fugiu. Ele a perdeu de vista."
+        "generatedText": "Chapeuzinho vermelho avistou o lobo mau. Ela correu. Ele a alcançou. Ela gritou. Ele a assustou. Ela escapou. Ele a perseguiu. Ela o enganou. Ele desistiu. Ela se escondeu. Ele a procurou. Ela fugiu. Ele a perdeu de vista.",
+        "images": [
+            "ChVe_gLuzIA_p2_r12_frame0.png",
+            "ChVe_gLuzIA_p2_r12_frame1.png",
+            "ChVe_gLuzIA_p2_r12_frame2.png",
+            "ChVe_gLuzIA_p2_r12_frame3.png",
+            "ChVe_gLuzIA_p2_r12_frame4.png",
+            "ChVe_gLuzIA_p2_r12_frame5.png"
+        ]
     },
     "ChVe_gBard_p3_r0": {
         "prompt": "Escreva um parágrafo com orações curtas de verbos télicos e dinâmicos que descreve o encontro da Chapeuzinho Vermelho e o Lobo Mau.",
-        "generatedText": "Chapeuzinho Vermelho caminhou pela floresta, encontrou o Lobo Mau e correu para casa."
+        "generatedText": "Chapeuzinho Vermelho caminhou pela floresta, encontrou o Lobo Mau e correu para casa.",
+        "images": [
+            "ChVe_gBard_p3_r0_frame0.png",
+            "ChVe_gBard_p3_r0_frame1.png",
+            "ChVe_gBard_p3_r0_frame10.png",
+            "ChVe_gBard_p3_r0_frame2.png",
+            "ChVe_gBard_p3_r0_frame3.png",
+            "ChVe_gBard_p3_r0_frame4.png",
+            "ChVe_gBard_p3_r0_frame5.png",
+            "ChVe_gBard_p3_r0_frame6.png",
+            "ChVe_gBard_p3_r0_frame7.png",
+            "ChVe_gBard_p3_r0_frame8.png",
+            "ChVe_gBard_p3_r0_frame9.png"
+        ]
     },
     "ChVe_gBard_p4_r1": {
         "prompt": "Gere 10 parágrafos com versões da frase gerada a seguir: \"Chapeuzinho Vermelho caminhou pela floresta, encontrou o Lobo Mau e correu para casa.\"",
-        "generatedText": "Chapeuzinho Vermelho caminhava pela floresta quando viu o Lobo Mau. Assustou-se e correu para casa."
+        "generatedText": "Chapeuzinho Vermelho caminhava pela floresta quando viu o Lobo Mau. Assustou-se e correu para casa.",
+        "images": [
+            "ChVe_gBard_p4_r1_frame0.png",
+            "ChVe_gBard_p4_r1_frame1.png",
+            "ChVe_gBard_p4_r1_frame10.png",
+            "ChVe_gBard_p4_r1_frame11.png",
+            "ChVe_gBard_p4_r1_frame12.png",
+            "ChVe_gBard_p4_r1_frame2.png",
+            "ChVe_gBard_p4_r1_frame3.png",
+            "ChVe_gBard_p4_r1_frame4.png",
+            "ChVe_gBard_p4_r1_frame5.png",
+            "ChVe_gBard_p4_r1_frame6.png",
+            "ChVe_gBard_p4_r1_frame7.png",
+            "ChVe_gBard_p4_r1_frame8.png",
+            "ChVe_gBard_p4_r1_frame9.png"
+        ]
     },
     "ChVe_gBard_p4_r2": {
         "prompt": "Gere 10 parágrafos com versões da frase gerada a seguir: \"Chapeuzinho Vermelho caminhou pela floresta, encontrou o Lobo Mau e correu para casa.\"",
-        "generatedText": "Chapeuzinho Vermelho seguia o caminho para a casa da vovó quando encontrou o Lobo Mau. O lobo ameaçou-a e ela correu para casa."
+        "generatedText": "Chapeuzinho Vermelho seguia o caminho para a casa da vovó quando encontrou o Lobo Mau. O lobo ameaçou-a e ela correu para casa.",
+        "images": [
+            "ChVe_gBard_p4_r2_frame0.png",
+            "ChVe_gBard_p4_r2_frame1.png",
+            "ChVe_gBard_p4_r2_frame10.png",
+            "ChVe_gBard_p4_r2_frame11.png",
+            "ChVe_gBard_p4_r2_frame12.png",
+            "ChVe_gBard_p4_r2_frame13.png",
+            "ChVe_gBard_p4_r2_frame2.png",
+            "ChVe_gBard_p4_r2_frame3.png",
+            "ChVe_gBard_p4_r2_frame4.png",
+            "ChVe_gBard_p4_r2_frame5.png",
+            "ChVe_gBard_p4_r2_frame6.png",
+            "ChVe_gBard_p4_r2_frame7.png",
+            "ChVe_gBard_p4_r2_frame8.png",
+            "ChVe_gBard_p4_r2_frame9.png"
+        ]
     },
     "ChVe_gBard_p4_r3": {
         "prompt": "Gere 10 parágrafos com versões da frase gerada a seguir: \"Chapeuzinho Vermelho caminhou pela floresta, encontrou o Lobo Mau e correu para casa.\"",
-        "generatedText": "Chapeuzinho Vermelho estava andando pela floresta quando viu um lobo. O lobo era grande e assustador, então ela correu para casa."
+        "generatedText": "Chapeuzinho Vermelho estava andando pela floresta quando viu um lobo. O lobo era grande e assustador, então ela correu para casa.",
+        "images": [
+            "ChVe_gBard_p4_r3_frame0.png",
+            "ChVe_gBard_p4_r3_frame1.png",
+            "ChVe_gBard_p4_r3_frame10.png",
+            "ChVe_gBard_p4_r3_frame2.png",
+            "ChVe_gBard_p4_r3_frame3.png",
+            "ChVe_gBard_p4_r3_frame4.png",
+            "ChVe_gBard_p4_r3_frame5.png",
+            "ChVe_gBard_p4_r3_frame6.png",
+            "ChVe_gBard_p4_r3_frame7.png",
+            "ChVe_gBard_p4_r3_frame8.png",
+            "ChVe_gBard_p4_r3_frame9.png"
+        ]
     },
     "ChVe_gBard_p4_r4": {
         "prompt": "Gere 10 parágrafos com versões da frase gerada a seguir: \"Chapeuzinho Vermelho caminhou pela floresta, encontrou o Lobo Mau e correu para casa.\"",
-        "generatedText": "Chapeuzinho Vermelho caminhava pela floresta quando viu uma criatura terrível. Era um lobo, e ele ameaçou-a. Chapeuzinho correu para casa, com medo."
+        "generatedText": "Chapeuzinho Vermelho caminhava pela floresta quando viu uma criatura terrível. Era um lobo, e ele ameaçou-a. Chapeuzinho correu para casa, com medo.",
+        "images": [
+            "ChVe_gBard_p4_r4_frame0.png",
+            "ChVe_gBard_p4_r4_frame1.png",
+            "ChVe_gBard_p4_r4_frame10.png",
+            "ChVe_gBard_p4_r4_frame11.png",
+            "ChVe_gBard_p4_r4_frame12.png",
+            "ChVe_gBard_p4_r4_frame13.png",
+            "ChVe_gBard_p4_r4_frame2.png",
+            "ChVe_gBard_p4_r4_frame3.png",
+            "ChVe_gBard_p4_r4_frame4.png",
+            "ChVe_gBard_p4_r4_frame5.png",
+            "ChVe_gBard_p4_r4_frame6.png",
+            "ChVe_gBard_p4_r4_frame7.png",
+            "ChVe_gBard_p4_r4_frame8.png",
+            "ChVe_gBard_p4_r4_frame9.png"
+        ]
     },
     "ChVe_gBard_p4_r5": {
         "prompt": "Gere 10 parágrafos com versões da frase gerada a seguir: \"Chapeuzinho Vermelho caminhou pela floresta, encontrou o Lobo Mau e correu para casa.\"",
-        "generatedText": "Chapeuzinho Vermelho estava levando doces para a vovó quando encontrou um lobo. O lobo disse que iria comer a vovó, então Chapeuzinho correu para casa."
+        "generatedText": "Chapeuzinho Vermelho estava levando doces para a vovó quando encontrou um lobo. O lobo disse que iria comer a vovó, então Chapeuzinho correu para casa.",
+        "images": [
+            "ChVe_gBard_p4_r5_frame0.png",
+            "ChVe_gBard_p4_r5_frame1.png",
+            "ChVe_gBard_p4_r5_frame10.png",
+            "ChVe_gBard_p4_r5_frame2.png",
+            "ChVe_gBard_p4_r5_frame3.png",
+            "ChVe_gBard_p4_r5_frame4.png",
+            "ChVe_gBard_p4_r5_frame5.png",
+            "ChVe_gBard_p4_r5_frame6.png",
+            "ChVe_gBard_p4_r5_frame7.png",
+            "ChVe_gBard_p4_r5_frame8.png",
+            "ChVe_gBard_p4_r5_frame9.png"
+        ]
     },
     "ChVe_gBard_p4_r6": {
         "prompt": "Gere 10 parágrafos com versões da frase gerada a seguir: \"Chapeuzinho Vermelho caminhou pela floresta, encontrou o Lobo Mau e correu para casa.\"",
-        "generatedText": "Chapeuzinho Vermelho estava caminhando pela floresta quando viu um lobo. O lobo era mau, e ele queria comê-la. Chapeuzinho correu para casa, com medo de ser devorada."
+        "generatedText": "Chapeuzinho Vermelho estava caminhando pela floresta quando viu um lobo. O lobo era mau, e ele queria comê-la. Chapeuzinho correu para casa, com medo de ser devorada.",
+        "images": [
+            "ChVe_gBard_p4_r6_frame0.png",
+            "ChVe_gBard_p4_r6_frame1.png",
+            "ChVe_gBard_p4_r6_frame2.png",
+            "ChVe_gBard_p4_r6_frame3.png",
+            "ChVe_gBard_p4_r6_frame4.png",
+            "ChVe_gBard_p4_r6_frame5.png",
+            "ChVe_gBard_p4_r6_frame6.png",
+            "ChVe_gBard_p4_r6_frame7.png",
+            "ChVe_gBard_p4_r6_frame8.png",
+            "ChVe_gBard_p4_r6_frame9.png"
+        ]
     },
     "InJo_gBard_p1_r55": {
         "prompt": "Escreva de forma resumida a cena da armadilha da pedra gigante de \"Indiana Jones e e os Caçadores da arca perdida\" em um parágrafo, usando verbos télicos e dinâmicos, sem adjetivos",
-        "generatedText": "Indiana Jones e Marion Ravenwood entram em uma sala cheia de areia. Jones ativa uma armadilha que faz uma pedra gigante cair. Jones se agarra a uma corda e Marion se esconde em um buraco. A pedra passa por cima deles."
+        "generatedText": "Indiana Jones e Marion Ravenwood entram em uma sala cheia de areia. Jones ativa uma armadilha que faz uma pedra gigante cair. Jones se agarra a uma corda e Marion se esconde em um buraco. A pedra passa por cima deles.",
+        "images": []
     },
     "InJo_gChatGPT_p1_r53": {
         "prompt": "Escreva de forma resumida a cena da armadilha da pedra gigante de \"Indiana Jones e e os Caçadores da arca perdida\" em um parágrafo, usando verbos télicos e dinâmicos, sem adjetivos",
-        "generatedText": "Indiana Jones evita armadilhas mortais enquanto adentra um templo antigo. Ao encontrar a pedra sagrada, desencadeia uma sequência de perigos: esquiva-se ágil de rochas em queda, escapa por pouco de ser esmagado pela pedra gigante e, finalmente, triunfa ao sair ileso da armadilha, mantendo a preciosa relíquia."
+        "generatedText": "Indiana Jones evita armadilhas mortais enquanto adentra um templo antigo. Ao encontrar a pedra sagrada, desencadeia uma sequência de perigos: esquiva-se ágil de rochas em queda, escapa por pouco de ser esmagado pela pedra gigante e, finalmente, triunfa ao sair ileso da armadilha, mantendo a preciosa relíquia.",
+        "images": []
     },
     "InJo_gChatGPT_p1_r54": {
         "prompt": "Escreva de forma resumida a cena da armadilha da pedra gigante de \"Indiana Jones e e os Caçadores da arca perdida\" em um parágrafo, usando verbos télicos e dinâmicos, sem adjetivos",
-        "generatedText": "Indiana Jones adentra um templo, evitando obstáculos intricados, desencadeando a descida de uma pedra gigante. Corre velozmente, superando desafios enquanto a pedra o persegue implacavelmente. Escapa por pouco, garantindo a sobrevivência ao evadir habilmente da iminente catástrofe."
+        "generatedText": "Indiana Jones adentra um templo, evitando obstáculos intricados, desencadeando a descida de uma pedra gigante. Corre velozmente, superando desafios enquanto a pedra o persegue implacavelmente. Escapa por pouco, garantindo a sobrevivência ao evadir habilmente da iminente catástrofe.",
+        "images": []
     },
     "InJo_gBard_p2_r58": {
         "prompt": "Escreva de forma resumida a cena da armadilha da pedra gigante de \"Indiana Jones e e os Caçadores da arca perdida\" em um parágrafo, usando verbos télicos e dinâmicos, sem adjetivos, com ênfase na perseguição da pedra.",
-        "generatedText": "Indiana Jones e Marion Ravenwood entram em uma sala cheia de areia. Jones ativa uma armadilha que faz uma pedra gigante cair. A pedra se move rapidamente em direção a eles, perseguindo-os como um predador. Jones se agarra a uma corda e Marion se esconde em um buraco. A pedra passa por cima deles, sem tocá-los."
+        "generatedText": "Indiana Jones e Marion Ravenwood entram em uma sala cheia de areia. Jones ativa uma armadilha que faz uma pedra gigante cair. A pedra se move rapidamente em direção a eles, perseguindo-os como um predador. Jones se agarra a uma corda e Marion se esconde em um buraco. A pedra passa por cima deles, sem tocá-los.",
+        "images": []
     },
     "InJo_gChatGPT_p2_r56": {
         "prompt": "Escreva de forma resumida a cena da armadilha da pedra gigante de \"Indiana Jones e e os Caçadores da arca perdida\" em um parágrafo, usando verbos télicos e dinâmicos, sem adjetivos, com ênfase na perseguição da pedra.",
-        "generatedText": "Indiana Jones desencadeia uma armadilha ao tocar na pedra gigante, desencadeando uma perseguição frenética. Corre, esquiva-se, salta e evita obstáculos em um desesperado esforço para escapar da colossal rocha que o persegue incansavelmente pela caverna, culminando em sua estreita fuga antes que a pedra esmagadora o alcance."
+        "generatedText": "Indiana Jones desencadeia uma armadilha ao tocar na pedra gigante, desencadeando uma perseguição frenética. Corre, esquiva-se, salta e evita obstáculos em um desesperado esforço para escapar da colossal rocha que o persegue incansavelmente pela caverna, culminando em sua estreita fuga antes que a pedra esmagadora o alcance.",
+        "images": []
     },
     "InJo_gChatGPT_p2_r57": {
         "prompt": "Escreva de forma resumida a cena da armadilha da pedra gigante de \"Indiana Jones e e os Caçadores da arca perdida\" em um parágrafo, usando verbos télicos e dinâmicos, sem adjetivos, com ênfase na perseguição da pedra.",
-        "generatedText": "Indiana Jones evita obstáculos traiçoeiros enquanto corre implacavelmente para escapar de uma colossal pedra que rola em sua direção. Esquivando-se habilmente, desvia-se de armadilhas astutas e supera desafios constantes, alcançando a linha de chegada momentos antes de ser esmagado pela pedra imparável."
+        "generatedText": "Indiana Jones evita obstáculos traiçoeiros enquanto corre implacavelmente para escapar de uma colossal pedra que rola em sua direção. Esquivando-se habilmente, desvia-se de armadilhas astutas e supera desafios constantes, alcançando a linha de chegada momentos antes de ser esmagado pela pedra imparável.",
+        "images": []
     },
     "InJo_gBard_p3_r60": {
         "prompt": "Escreva de forma resumida a cena da pedra de Indiana Jones em um parágrafo, usando verbos télicos e dinâmicos, sem adjetivos",
-        "generatedText": "Indiana Jones, em uma caverna, agarra uma estatueta de ouro e corre para escapar de uma pedra rolante. Ele pula de um buraco, a pedra passa por cima dele e atinge a porta da caverna, fechando-a."
+        "generatedText": "Indiana Jones, em uma caverna, agarra uma estatueta de ouro e corre para escapar de uma pedra rolante. Ele pula de um buraco, a pedra passa por cima dele e atinge a porta da caverna, fechando-a.",
+        "images": []
     },
     "InJo_gChatGPT_p3_r59": {
         "prompt": "Escreva de forma resumida a cena da pedra de Indiana Jones em um parágrafo, usando verbos télicos e dinâmicos, sem adjetivos",
-        "generatedText": "Indiana Jones adentra uma caverna traiçoeira, esquivando-se de armadilhas mortais, desativando mecanismos complexos e superando obstáculos perigosos em sua busca pela pedra sagrada. Enfrenta setas envenenadas, desvia-se de rochas em queda e escapa por um triz de uma armadilha catastrófica antes de triunfar na conquista do objeto precioso."
+        "generatedText": "Indiana Jones adentra uma caverna traiçoeira, esquivando-se de armadilhas mortais, desativando mecanismos complexos e superando obstáculos perigosos em sua busca pela pedra sagrada. Enfrenta setas envenenadas, desvia-se de rochas em queda e escapa por um triz de uma armadilha catastrófica antes de triunfar na conquista do objeto precioso.",
+        "images": []
     },
     "InJo_gBard_p4_r63": {
         "prompt": "Escreva de forma resumida a cena da pedra de Indiana Jones em um parágrafo, usando verbos télicos e dinâmicos. Exclua todos os adjetivos e advérbios.",
-        "generatedText": "Indiana Jones entra em uma caverna e pega uma estatueta de ouro. Uma pedra gigante é solta e começa a rolar em sua direção. Jones corre pela caverna, desviando de obstáculos, e consegue escapar pela porta antes que a pedra o alcance"
+        "generatedText": "Indiana Jones entra em uma caverna e pega uma estatueta de ouro. Uma pedra gigante é solta e começa a rolar em sua direção. Jones corre pela caverna, desviando de obstáculos, e consegue escapar pela porta antes que a pedra o alcance",
+        "images": []
     },
     "InJo_gChatGPT_p4_r61": {
         "prompt": "Escreva de forma resumida a cena da pedra de Indiana Jones em um parágrafo, usando verbos télicos e dinâmicos. Exclua todos os adjetivos e advérbios.",
-        "generatedText": "Indiana Jones desativa armadilhas, alcança a pedra sagrada, troca pela falsa, desencadeia perseguição, escapa de dardos e rochas, enfrenta inimigos, escapa da armadilha final com a pedra."
+        "generatedText": "Indiana Jones desativa armadilhas, alcança a pedra sagrada, troca pela falsa, desencadeia perseguição, escapa de dardos e rochas, enfrenta inimigos, escapa da armadilha final com a pedra.",
+        "images": []
     },
     "InJo_gChatGPT_p4_r62": {
         "prompt": "Escreva de forma resumida a cena da pedra de Indiana Jones em um parágrafo, usando verbos télicos e dinâmicos. Exclua todos os adjetivos e advérbios.",
-        "generatedText": "Indiana Jones esquiva obstáculos, desliza por túneis, salta sobre abismos e escapa de uma pedra gigante que rola atrás dele. Corre, salta, escala e desvia com destreza excepcional, evitando por pouco ser esmagado até alcançar a segurança."
+        "generatedText": "Indiana Jones esquiva obstáculos, desliza por túneis, salta sobre abismos e escapa de uma pedra gigante que rola atrás dele. Corre, salta, escala e desvia com destreza excepcional, evitando por pouco ser esmagado até alcançar a segurança.",
+        "images": []
     },
     "PePr_gBard_p1_r16": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\", sem fala dos personagens.",
-        "generatedText": "O piloto, perdido no deserto, reparou em um vulcão. Ao aproximar-se, viu uma figura pequena e loira sentada no cume. O piloto subiu o vulcão e encontrou o Pequeno Príncipe, que lhe contou sobre sua vida em um pequeno planeta distante."
+        "generatedText": "O piloto, perdido no deserto, reparou em um vulcão. Ao aproximar-se, viu uma figura pequena e loira sentada no cume. O piloto subiu o vulcão e encontrou o Pequeno Príncipe, que lhe contou sobre sua vida em um pequeno planeta distante.",
+        "images": [
+            "PePr_gBard_p1_r16_frame0.png",
+            "PePr_gBard_p1_r16_frame1.png",
+            "PePr_gBard_p1_r16_frame10.png",
+            "PePr_gBard_p1_r16_frame11.png",
+            "PePr_gBard_p1_r16_frame12.png",
+            "PePr_gBard_p1_r16_frame13.png",
+            "PePr_gBard_p1_r16_frame14.png",
+            "PePr_gBard_p1_r16_frame15.png",
+            "PePr_gBard_p1_r16_frame16.png",
+            "PePr_gBard_p1_r16_frame17.png",
+            "PePr_gBard_p1_r16_frame18.png",
+            "PePr_gBard_p1_r16_frame19.png",
+            "PePr_gBard_p1_r16_frame2.png",
+            "PePr_gBard_p1_r16_frame20.png",
+            "PePr_gBard_p1_r16_frame21.png",
+            "PePr_gBard_p1_r16_frame22.png",
+            "PePr_gBard_p1_r16_frame23.png",
+            "PePr_gBard_p1_r16_frame3.png",
+            "PePr_gBard_p1_r16_frame4.png",
+            "PePr_gBard_p1_r16_frame5.png",
+            "PePr_gBard_p1_r16_frame6.png",
+            "PePr_gBard_p1_r16_frame7.png",
+            "PePr_gBard_p1_r16_frame8.png",
+            "PePr_gBard_p1_r16_frame9.png"
+        ]
     },
     "PePr_gChatGPT_p1_r13": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\", sem fala dos personagens.",
-        "generatedText": "O Pequeno Príncipe chegou ao deserto. Viu o avião quebrado. Encontrou o piloto. Correu em direção ao piloto. Olhou o piloto com curiosidade. Aproximou-se do piloto. Ajudou o piloto a consertar o avião. Compartilhou sua história com o piloto. Formaram uma amizade sincera."
+        "generatedText": "O Pequeno Príncipe chegou ao deserto. Viu o avião quebrado. Encontrou o piloto. Correu em direção ao piloto. Olhou o piloto com curiosidade. Aproximou-se do piloto. Ajudou o piloto a consertar o avião. Compartilhou sua história com o piloto. Formaram uma amizade sincera.",
+        "images": [
+            "PePr_gChatGPT_p1_r13_frame0.png",
+            "PePr_gChatGPT_p1_r13_frame1.png",
+            "PePr_gChatGPT_p1_r13_frame10.png",
+            "PePr_gChatGPT_p1_r13_frame2.png",
+            "PePr_gChatGPT_p1_r13_frame3.png",
+            "PePr_gChatGPT_p1_r13_frame4.png",
+            "PePr_gChatGPT_p1_r13_frame5.png",
+            "PePr_gChatGPT_p1_r13_frame6.png",
+            "PePr_gChatGPT_p1_r13_frame7.png",
+            "PePr_gChatGPT_p1_r13_frame8.png",
+            "PePr_gChatGPT_p1_r13_frame9.png"
+        ]
     },
     "PePr_gChatGPT_p1_r14": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\", sem fala dos personagens.",
-        "generatedText": "O Pequeno Príncipe chegou ao deserto. Viu o avião do piloto. Correu em direção a ele. O piloto o viu. Sorriu para o Pequeno Príncipe. O encontro foi especial."
+        "generatedText": "O Pequeno Príncipe chegou ao deserto. Viu o avião do piloto. Correu em direção a ele. O piloto o viu. Sorriu para o Pequeno Príncipe. O encontro foi especial.",
+        "images": [
+            "PePr_gChatGPT_p1_r14_frame0.png",
+            "PePr_gChatGPT_p1_r14_frame1.png",
+            "PePr_gChatGPT_p1_r14_frame2.png",
+            "PePr_gChatGPT_p1_r14_frame3.png",
+            "PePr_gChatGPT_p1_r14_frame4.png",
+            "PePr_gChatGPT_p1_r14_frame5.png",
+            "PePr_gChatGPT_p1_r14_frame6.png",
+            "PePr_gChatGPT_p1_r14_frame7.png",
+            "PePr_gChatGPT_p1_r14_frame8.png",
+            "PePr_gChatGPT_p1_r14_frame9.png"
+        ]
     },
     "PePr_gLuzIA_p1_r15": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\", sem fala dos personagens.",
-        "generatedText": "O Pequeno Príncipe viu o piloto. O piloto percebeu o Pequeno Príncipe. O Pequeno Príncipe cativou o piloto. O piloto se emocionou. Eles se conheceram. O Pequeno Príncipe partiu. O piloto nunca o esqueceu."
+        "generatedText": "O Pequeno Príncipe viu o piloto. O piloto percebeu o Pequeno Príncipe. O Pequeno Príncipe cativou o piloto. O piloto se emocionou. Eles se conheceram. O Pequeno Príncipe partiu. O piloto nunca o esqueceu.",
+        "images": [
+            "PePr_gLuzIA_p1_r15_frame0.png",
+            "PePr_gLuzIA_p1_r15_frame1.png",
+            "PePr_gLuzIA_p1_r15_frame10.png",
+            "PePr_gLuzIA_p1_r15_frame11.png",
+            "PePr_gLuzIA_p1_r15_frame12.png",
+            "PePr_gLuzIA_p1_r15_frame13.png",
+            "PePr_gLuzIA_p1_r15_frame14.png",
+            "PePr_gLuzIA_p1_r15_frame15.png",
+            "PePr_gLuzIA_p1_r15_frame16.png",
+            "PePr_gLuzIA_p1_r15_frame17.png",
+            "PePr_gLuzIA_p1_r15_frame18.png",
+            "PePr_gLuzIA_p1_r15_frame19.png",
+            "PePr_gLuzIA_p1_r15_frame2.png",
+            "PePr_gLuzIA_p1_r15_frame20.png",
+            "PePr_gLuzIA_p1_r15_frame21.png",
+            "PePr_gLuzIA_p1_r15_frame22.png",
+            "PePr_gLuzIA_p1_r15_frame23.png",
+            "PePr_gLuzIA_p1_r15_frame24.png",
+            "PePr_gLuzIA_p1_r15_frame25.png",
+            "PePr_gLuzIA_p1_r15_frame26.png",
+            "PePr_gLuzIA_p1_r15_frame27.png",
+            "PePr_gLuzIA_p1_r15_frame3.png",
+            "PePr_gLuzIA_p1_r15_frame4.png",
+            "PePr_gLuzIA_p1_r15_frame5.png",
+            "PePr_gLuzIA_p1_r15_frame6.png",
+            "PePr_gLuzIA_p1_r15_frame7.png",
+            "PePr_gLuzIA_p1_r15_frame8.png",
+            "PePr_gLuzIA_p1_r15_frame9.png"
+        ]
     },
     "PePr_gBard_p2_r19": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\".",
-        "generatedText": "O piloto, perdido no deserto, viu um menino sorridente. O menino disse: \"Olá, sou o Pequeno Príncipe.\" O piloto ficou surpreso, mas também curioso. Começou a conversar com o menino e logo se tornou amigo dele."
+        "generatedText": "O piloto, perdido no deserto, viu um menino sorridente. O menino disse: \"Olá, sou o Pequeno Príncipe.\" O piloto ficou surpreso, mas também curioso. Começou a conversar com o menino e logo se tornou amigo dele.",
+        "images": [
+            "PePr_gBard_p2_r19_frame0.png",
+            "PePr_gBard_p2_r19_frame1.png",
+            "PePr_gBard_p2_r19_frame2.png",
+            "PePr_gBard_p2_r19_frame3.png",
+            "PePr_gBard_p2_r19_frame4.png",
+            "PePr_gBard_p2_r19_frame5.png",
+            "PePr_gBard_p2_r19_frame6.png"
+        ]
     },
     "PePr_gChatGPT_p2_r17": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\".",
-        "generatedText": "No deserto, o Pequeno Príncipe encontrou o piloto consertando seu avião. Perguntou sobre o conserto, sorriu. Sentaram-se, conversaram sobre estrelas e amizade. O Pequeno Príncipe trouxe luz ao deserto e ao coração do piloto."
+        "generatedText": "No deserto, o Pequeno Príncipe encontrou o piloto consertando seu avião. Perguntou sobre o conserto, sorriu. Sentaram-se, conversaram sobre estrelas e amizade. O Pequeno Príncipe trouxe luz ao deserto e ao coração do piloto.",
+        "images": [
+            "PePr_gChatGPT_p2_r17_frame0.png",
+            "PePr_gChatGPT_p2_r17_frame1.png",
+            "PePr_gChatGPT_p2_r17_frame10.png",
+            "PePr_gChatGPT_p2_r17_frame2.png",
+            "PePr_gChatGPT_p2_r17_frame3.png",
+            "PePr_gChatGPT_p2_r17_frame4.png",
+            "PePr_gChatGPT_p2_r17_frame5.png",
+            "PePr_gChatGPT_p2_r17_frame6.png",
+            "PePr_gChatGPT_p2_r17_frame7.png",
+            "PePr_gChatGPT_p2_r17_frame8.png",
+            "PePr_gChatGPT_p2_r17_frame9.png"
+        ]
     },
     "PePr_gChatGPT_p2_r18": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\".",
-        "generatedText": "O Pequeno Príncipe encontrou o piloto no deserto. Perguntou sobre o avião. Sentaram-se na areia. Falaram de estrelas e amizade. O deserto ganhou luz."
+        "generatedText": "O Pequeno Príncipe encontrou o piloto no deserto. Perguntou sobre o avião. Sentaram-se na areia. Falaram de estrelas e amizade. O deserto ganhou luz.",
+        "images": [
+            "PePr_gChatGPT_p2_r18_frame0.png",
+            "PePr_gChatGPT_p2_r18_frame1.png",
+            "PePr_gChatGPT_p2_r18_frame2.png",
+            "PePr_gChatGPT_p2_r18_frame3.png",
+            "PePr_gChatGPT_p2_r18_frame4.png",
+            "PePr_gChatGPT_p2_r18_frame5.png"
+        ]
     },
     "PePr_gLuzIA_p2_r20": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\".",
-        "generatedText": "O Pequeno Príncipe encontrou o piloto. Ele sorriu. O piloto se surpreendeu. O Pequeno Príncipe falou. O piloto escutou. O Pequeno Príncipe encantou o piloto. O piloto se emocionou. Eles conversaram. O Pequeno Príncipe partiu. O piloto nunca o esqueceu."
+        "generatedText": "O Pequeno Príncipe encontrou o piloto. Ele sorriu. O piloto se surpreendeu. O Pequeno Príncipe falou. O piloto escutou. O Pequeno Príncipe encantou o piloto. O piloto se emocionou. Eles conversaram. O Pequeno Príncipe partiu. O piloto nunca o esqueceu.",
+        "images": [
+            "PePr_gLuzIA_p2_r20_frame0.png",
+            "PePr_gLuzIA_p2_r20_frame1.png",
+            "PePr_gLuzIA_p2_r20_frame10.png",
+            "PePr_gLuzIA_p2_r20_frame11.png",
+            "PePr_gLuzIA_p2_r20_frame12.png",
+            "PePr_gLuzIA_p2_r20_frame13.png",
+            "PePr_gLuzIA_p2_r20_frame14.png",
+            "PePr_gLuzIA_p2_r20_frame15.png",
+            "PePr_gLuzIA_p2_r20_frame16.png",
+            "PePr_gLuzIA_p2_r20_frame17.png",
+            "PePr_gLuzIA_p2_r20_frame18.png",
+            "PePr_gLuzIA_p2_r20_frame19.png",
+            "PePr_gLuzIA_p2_r20_frame2.png",
+            "PePr_gLuzIA_p2_r20_frame20.png",
+            "PePr_gLuzIA_p2_r20_frame21.png",
+            "PePr_gLuzIA_p2_r20_frame22.png",
+            "PePr_gLuzIA_p2_r20_frame23.png",
+            "PePr_gLuzIA_p2_r20_frame24.png",
+            "PePr_gLuzIA_p2_r20_frame25.png",
+            "PePr_gLuzIA_p2_r20_frame26.png",
+            "PePr_gLuzIA_p2_r20_frame27.png",
+            "PePr_gLuzIA_p2_r20_frame28.png",
+            "PePr_gLuzIA_p2_r20_frame29.png",
+            "PePr_gLuzIA_p2_r20_frame3.png",
+            "PePr_gLuzIA_p2_r20_frame30.png",
+            "PePr_gLuzIA_p2_r20_frame31.png",
+            "PePr_gLuzIA_p2_r20_frame32.png",
+            "PePr_gLuzIA_p2_r20_frame33.png",
+            "PePr_gLuzIA_p2_r20_frame34.png",
+            "PePr_gLuzIA_p2_r20_frame35.png",
+            "PePr_gLuzIA_p2_r20_frame36.png",
+            "PePr_gLuzIA_p2_r20_frame37.png",
+            "PePr_gLuzIA_p2_r20_frame38.png",
+            "PePr_gLuzIA_p2_r20_frame39.png",
+            "PePr_gLuzIA_p2_r20_frame4.png",
+            "PePr_gLuzIA_p2_r20_frame40.png",
+            "PePr_gLuzIA_p2_r20_frame41.png",
+            "PePr_gLuzIA_p2_r20_frame5.png",
+            "PePr_gLuzIA_p2_r20_frame6.png",
+            "PePr_gLuzIA_p2_r20_frame7.png",
+            "PePr_gLuzIA_p2_r20_frame8.png",
+            "PePr_gLuzIA_p2_r20_frame9.png"
+        ]
     },
     "PePr_gBard_p3_r22": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\".",
-        "generatedText": "O Pequeno Príncipe acordou no deserto e viu um homem sentado ao lado dele. O homem se levantou e o olhou. O Pequeno Príncipe sorriu e disse: \"Olá!\" O homem ficou surpreso, mas respondeu: \"Olá!\""
+        "generatedText": "O Pequeno Príncipe acordou no deserto e viu um homem sentado ao lado dele. O homem se levantou e o olhou. O Pequeno Príncipe sorriu e disse: \"Olá!\" O homem ficou surpreso, mas respondeu: \"Olá!\"",
+        "images": []
     },
     "PePr_gChatGPT_p3_r21": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\".",
-        "generatedText": "O Pequeno Príncipe encontrou o piloto no deserto. Eles falaram sobre o avião quebrado e compartilharam histórias. O encontro trouxe encanto ao deserto e uma conexão especial entre eles."
+        "generatedText": "O Pequeno Príncipe encontrou o piloto no deserto. Eles falaram sobre o avião quebrado e compartilharam histórias. O encontro trouxe encanto ao deserto e uma conexão especial entre eles.",
+        "images": [
+            "PePr_gChatGPT_p3_r21_frame0.png",
+            "PePr_gChatGPT_p3_r21_frame1.png",
+            "PePr_gChatGPT_p3_r21_frame10.png",
+            "PePr_gChatGPT_p3_r21_frame11.png",
+            "PePr_gChatGPT_p3_r21_frame12.png",
+            "PePr_gChatGPT_p3_r21_frame13.png",
+            "PePr_gChatGPT_p3_r21_frame14.png",
+            "PePr_gChatGPT_p3_r21_frame15.png",
+            "PePr_gChatGPT_p3_r21_frame2.png",
+            "PePr_gChatGPT_p3_r21_frame3.png",
+            "PePr_gChatGPT_p3_r21_frame4.png",
+            "PePr_gChatGPT_p3_r21_frame5.png",
+            "PePr_gChatGPT_p3_r21_frame6.png",
+            "PePr_gChatGPT_p3_r21_frame7.png",
+            "PePr_gChatGPT_p3_r21_frame8.png",
+            "PePr_gChatGPT_p3_r21_frame9.png"
+        ]
     },
     "PePr_gLuzIA_p3_r23": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos que descreva o encontro do Pequeno Príncipe com o piloto, baseado na história \"O Pequeno Príncipe\".",
-        "generatedText": "O Pequeno Príncipe viu o piloto. Ele sorriu. O piloto se surpreendeu. O Pequeno Príncipe falou. O piloto escutou. Eles se conheceram. O Pequeno Príncipe partiu. O piloto nunca o esqueceu."
+        "generatedText": "O Pequeno Príncipe viu o piloto. Ele sorriu. O piloto se surpreendeu. O Pequeno Príncipe falou. O piloto escutou. Eles se conheceram. O Pequeno Príncipe partiu. O piloto nunca o esqueceu.",
+        "images": [
+            "PePr_gLuzIA_p3_r23_frame0.png",
+            "PePr_gLuzIA_p3_r23_frame1.png",
+            "PePr_gLuzIA_p3_r23_frame10.png",
+            "PePr_gLuzIA_p3_r23_frame11.png",
+            "PePr_gLuzIA_p3_r23_frame12.png",
+            "PePr_gLuzIA_p3_r23_frame13.png",
+            "PePr_gLuzIA_p3_r23_frame14.png",
+            "PePr_gLuzIA_p3_r23_frame15.png",
+            "PePr_gLuzIA_p3_r23_frame16.png",
+            "PePr_gLuzIA_p3_r23_frame17.png",
+            "PePr_gLuzIA_p3_r23_frame18.png",
+            "PePr_gLuzIA_p3_r23_frame19.png",
+            "PePr_gLuzIA_p3_r23_frame2.png",
+            "PePr_gLuzIA_p3_r23_frame20.png",
+            "PePr_gLuzIA_p3_r23_frame21.png",
+            "PePr_gLuzIA_p3_r23_frame22.png",
+            "PePr_gLuzIA_p3_r23_frame23.png",
+            "PePr_gLuzIA_p3_r23_frame24.png",
+            "PePr_gLuzIA_p3_r23_frame25.png",
+            "PePr_gLuzIA_p3_r23_frame26.png",
+            "PePr_gLuzIA_p3_r23_frame27.png",
+            "PePr_gLuzIA_p3_r23_frame3.png",
+            "PePr_gLuzIA_p3_r23_frame4.png",
+            "PePr_gLuzIA_p3_r23_frame5.png",
+            "PePr_gLuzIA_p3_r23_frame6.png",
+            "PePr_gLuzIA_p3_r23_frame7.png",
+            "PePr_gLuzIA_p3_r23_frame8.png",
+            "PePr_gLuzIA_p3_r23_frame9.png"
+        ]
     },
     "PePa_gBard_p1_r70": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro de Peter Pan e Capitão Gancho",
-        "generatedText": "Peter Pan voou até o navio Jolly Roger e atacou Capitão Gancho com sua espada. Gancho contra-atacou com seu gancho, mas Peter Pan foi mais rápido e arrancou o gancho dele."
+        "generatedText": "Peter Pan voou até o navio Jolly Roger e atacou Capitão Gancho com sua espada. Gancho contra-atacou com seu gancho, mas Peter Pan foi mais rápido e arrancou o gancho dele.",
+        "images": [
+            "PePa_gBard_p1_r70_frame0.png",
+            "PePa_gBard_p1_r70_frame1.png",
+            "PePa_gBard_p1_r70_frame2.png"
+        ]
     },
     "PePa_gChatGPT_p1_r69": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro de Peter Pan e Capitão Gancho",
-        "generatedText": "Peter Pan encontrou o Capitão Gancho no Jolly Roger. Em rápida dança, desarmou o Capitão e partiu. O breve encontro foi mais uma batalha na Terra do Nunca."
+        "generatedText": "Peter Pan encontrou o Capitão Gancho no Jolly Roger. Em rápida dança, desarmou o Capitão e partiu. O breve encontro foi mais uma batalha na Terra do Nunca.",
+        "images": [
+            "PePa_gChatGPT_p1_r69_frame0.png",
+            "PePa_gChatGPT_p1_r69_frame1.png",
+            "PePa_gChatGPT_p1_r69_frame2.png",
+            "PePa_gChatGPT_p1_r69_frame3.png",
+            "PePa_gChatGPT_p1_r69_frame4.png",
+            "PePa_gChatGPT_p1_r69_frame5.png"
+        ]
     },
     "PePa_gLuzIA_p1_r71": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva o encontro de Peter Pan e Capitão Gancho",
-        "generatedText": "Peter Pan viu Capitão Gancho. Ele voou. Capitão Gancho tentou pegá-lo. Peter Pan escapou."
+        "generatedText": "Peter Pan viu Capitão Gancho. Ele voou. Capitão Gancho tentou pegá-lo. Peter Pan escapou.",
+        "images": [
+            "PePa_gLuzIA_p1_r71_frame0.png",
+            "PePa_gLuzIA_p1_r71_frame1.png",
+            "PePa_gLuzIA_p1_r71_frame2.png"
+        ]
     },
     "PePa_gBard_p2_r74": {
         "prompt": "Escreva um paragráfo de verbos dinâmicos e télicos sem subordinação que descreva o encontro de Peter Pan e Capitão Gancho",
-        "generatedText": "Peter Pan e Capitão Gancho se enfrentam na Terra do Nunca. Gancho avança com sua espada, mas Peter escapa voando."
+        "generatedText": "Peter Pan e Capitão Gancho se enfrentam na Terra do Nunca. Gancho avança com sua espada, mas Peter escapa voando.",
+        "images": [
+            "PePa_gBard_p2_r74_frame0.png",
+            "PePa_gBard_p2_r74_frame1.png",
+            "PePa_gBard_p2_r74_frame2.png",
+            "PePa_gBard_p2_r74_frame3.png",
+            "PePa_gBard_p2_r74_frame4.png",
+            "PePa_gBard_p2_r74_frame5.png",
+            "PePa_gBard_p2_r74_frame6.png",
+            "PePa_gBard_p2_r74_frame7.png"
+        ]
     },
     "PePa_gChatGPT_p2_r73": {
         "prompt": "Escreva um paragráfo de verbos dinâmicos e télicos sem subordinação que descreva o encontro de Peter Pan e Capitão Gancho",
-        "generatedText": "Peter Pan enfrentou Capitão Gancho na ilha. Duelaram com golpes ágeis. Peter desarmou Gancho, vencendo o confronto na Terra do Nunca."
+        "generatedText": "Peter Pan enfrentou Capitão Gancho na ilha. Duelaram com golpes ágeis. Peter desarmou Gancho, vencendo o confronto na Terra do Nunca.",
+        "images": [
+            "PePa_gChatGPT_p2_r73_frame0.png",
+            "PePa_gChatGPT_p2_r73_frame1.png",
+            "PePa_gChatGPT_p2_r73_frame10.png",
+            "PePa_gChatGPT_p2_r73_frame11.png",
+            "PePa_gChatGPT_p2_r73_frame12.png",
+            "PePa_gChatGPT_p2_r73_frame13.png",
+            "PePa_gChatGPT_p2_r73_frame2.png",
+            "PePa_gChatGPT_p2_r73_frame3.png",
+            "PePa_gChatGPT_p2_r73_frame4.png",
+            "PePa_gChatGPT_p2_r73_frame5.png",
+            "PePa_gChatGPT_p2_r73_frame6.png",
+            "PePa_gChatGPT_p2_r73_frame7.png",
+            "PePa_gChatGPT_p2_r73_frame8.png",
+            "PePa_gChatGPT_p2_r73_frame9.png"
+        ]
     },
     "PePa_gLuzIA_p2_r72": {
         "prompt": "Escreva um paragráfo de verbos dinâmicos e télicos sem subordinação que descreva o encontro de Peter Pan e Capitão Gancho",
-        "generatedText": "Peter Pan voa para longe. Capitão Gancho luta bravamente. Peter Pan escapa. Capitão Gancho fica furioso."
+        "generatedText": "Peter Pan voa para longe. Capitão Gancho luta bravamente. Peter Pan escapa. Capitão Gancho fica furioso.",
+        "images": [
+            "PePa_gLuzIA_p2_r72_frame0.png",
+            "PePa_gLuzIA_p2_r72_frame1.png",
+            "PePa_gLuzIA_p2_r72_frame2.png",
+            "PePa_gLuzIA_p2_r72_frame3.png",
+            "PePa_gLuzIA_p2_r72_frame4.png",
+            "PePa_gLuzIA_p2_r72_frame5.png",
+            "PePa_gLuzIA_p2_r72_frame6.png"
+        ]
     },
     "PePa_gBard_p3_r65": {
         "prompt": "Escreva um parágrafo composto por frases concisas que retratem o encontro entre o Capitão Gancho e Peter Pan. Utilize verbos dinâmicos e telicos, evitando a subordinação.",
-        "generatedText": "Capitão Gancho e Peter Pan se enfrentaram na Lagoa dos Sonhos. Gancho avançou com sua espada, mas Peter Pan desviou e desferiu um golpe certeiro que arrancou a mão do pirata. Gancho gritou de dor e fugiu, derrotado."
+        "generatedText": "Capitão Gancho e Peter Pan se enfrentaram na Lagoa dos Sonhos. Gancho avançou com sua espada, mas Peter Pan desviou e desferiu um golpe certeiro que arrancou a mão do pirata. Gancho gritou de dor e fugiu, derrotado.",
+        "images": [
+            "PePa_gBard_p3_r65_frame0.png",
+            "PePa_gBard_p3_r65_frame1.png",
+            "PePa_gBard_p3_r65_frame10.png",
+            "PePa_gBard_p3_r65_frame11.png",
+            "PePa_gBard_p3_r65_frame12.png",
+            "PePa_gBard_p3_r65_frame13.png",
+            "PePa_gBard_p3_r65_frame2.png",
+            "PePa_gBard_p3_r65_frame3.png",
+            "PePa_gBard_p3_r65_frame4.png",
+            "PePa_gBard_p3_r65_frame5.png",
+            "PePa_gBard_p3_r65_frame6.png",
+            "PePa_gBard_p3_r65_frame7.png",
+            "PePa_gBard_p3_r65_frame8.png",
+            "PePa_gBard_p3_r65_frame9.png"
+        ]
     },
     "PePa_gBard_p3_r66": {
         "prompt": "Escreva um parágrafo composto por frases concisas que retratem o encontro entre o Capitão Gancho e Peter Pan. Utilize verbos dinâmicos e telicos, evitando a subordinação.",
-        "generatedText": "Capitão Gancho e Peter Pan lutaram na Lagoa dos Sonhos. Gancho atacou, mas Peter Pan desviou e acertou um golpe que arrancou a mão do pirata. Gancho gritou de dor e fugiu, derrotado."
+        "generatedText": "Capitão Gancho e Peter Pan lutaram na Lagoa dos Sonhos. Gancho atacou, mas Peter Pan desviou e acertou um golpe que arrancou a mão do pirata. Gancho gritou de dor e fugiu, derrotado.",
+        "images": [
+            "PePa_gBard_p3_r66_frame0.png",
+            "PePa_gBard_p3_r66_frame1.png",
+            "PePa_gBard_p3_r66_frame2.png",
+            "PePa_gBard_p3_r66_frame3.png",
+            "PePa_gBard_p3_r66_frame4.png",
+            "PePa_gBard_p3_r66_frame5.png",
+            "PePa_gBard_p3_r66_frame6.png",
+            "PePa_gBard_p3_r66_frame7.png"
+        ]
     },
     "PePa_gChatGPT_p3_r64": {
         "prompt": "Escreva um parágrafo composto por frases concisas que retratem o encontro entre o Capitão Gancho e Peter Pan. Utilize verbos dinâmicos e telicos, evitando a subordinação.",
-        "generatedText": "Capitão Gancho confrontou Peter Pan. Eles duelaram ferozmente. Espadas brilharam no escuro. Saltos, esquivas, golpes. Peter venceu, fazendo Gancho fugir. Neverland vibrou com a vitória de Peter."
+        "generatedText": "Capitão Gancho confrontou Peter Pan. Eles duelaram ferozmente. Espadas brilharam no escuro. Saltos, esquivas, golpes. Peter venceu, fazendo Gancho fugir. Neverland vibrou com a vitória de Peter.",
+        "images": [
+            "PePa_gChatGPT_p3_r64_frame0.png",
+            "PePa_gChatGPT_p3_r64_frame1.png",
+            "PePa_gChatGPT_p3_r64_frame10.png",
+            "PePa_gChatGPT_p3_r64_frame11.png",
+            "PePa_gChatGPT_p3_r64_frame12.png",
+            "PePa_gChatGPT_p3_r64_frame13.png",
+            "PePa_gChatGPT_p3_r64_frame2.png",
+            "PePa_gChatGPT_p3_r64_frame3.png",
+            "PePa_gChatGPT_p3_r64_frame4.png",
+            "PePa_gChatGPT_p3_r64_frame5.png",
+            "PePa_gChatGPT_p3_r64_frame6.png",
+            "PePa_gChatGPT_p3_r64_frame7.png",
+            "PePa_gChatGPT_p3_r64_frame8.png",
+            "PePa_gChatGPT_p3_r64_frame9.png"
+        ]
     },
     "PePa_gBard_p4_r67": {
         "prompt": "Escreva um parágrafo curto composto por frases simples que descrevam o encontro entre o Capitão Gancho e Peter Pan. Utilize verbos dinâmicos e telicos, sem adjetivos e locuções adverbiais, e com foco nas ações dos personagens.",
-        "generatedText": "O Capitão Gancho agarrou o punhal e avançou sobre Peter Pan. O menino riu e pulou para o lado, escapando do golpe. Os dois se enfrentaram, trocando golpes de espada."
+        "generatedText": "O Capitão Gancho agarrou o punhal e avançou sobre Peter Pan. O menino riu e pulou para o lado, escapando do golpe. Os dois se enfrentaram, trocando golpes de espada.",
+        "images": [
+            "PePa_gBard_p4_r67_frame0.png",
+            "PePa_gBard_p4_r67_frame1.png",
+            "PePa_gBard_p4_r67_frame10.png",
+            "PePa_gBard_p4_r67_frame11.png",
+            "PePa_gBard_p4_r67_frame12.png",
+            "PePa_gBard_p4_r67_frame13.png",
+            "PePa_gBard_p4_r67_frame14.png",
+            "PePa_gBard_p4_r67_frame15.png",
+            "PePa_gBard_p4_r67_frame16.png",
+            "PePa_gBard_p4_r67_frame17.png",
+            "PePa_gBard_p4_r67_frame2.png",
+            "PePa_gBard_p4_r67_frame3.png",
+            "PePa_gBard_p4_r67_frame4.png",
+            "PePa_gBard_p4_r67_frame5.png",
+            "PePa_gBard_p4_r67_frame6.png",
+            "PePa_gBard_p4_r67_frame7.png",
+            "PePa_gBard_p4_r67_frame8.png",
+            "PePa_gBard_p4_r67_frame9.png"
+        ]
     },
     "PePa_gChatGPT_p4_r68": {
         "prompt": "Escreva um parágrafo curto composto por frases simples que descrevam o encontro entre o Capitão Gancho e Peter Pan. Utilize verbos dinâmicos e telicos, sem adjetivos e locuções adverbiais, e com foco nas ações dos personagens.",
-        "generatedText": "Capitão Gancho confronta Peter Pan no convés. Ambos duelam com destreza. Peter esquiva, desarma Gancho, voa para longe. Gancho, furioso, observa sua derrota. O encontro tenso revela mais uma batalha na Terra do Nunca."
+        "generatedText": "Capitão Gancho confronta Peter Pan no convés. Ambos duelam com destreza. Peter esquiva, desarma Gancho, voa para longe. Gancho, furioso, observa sua derrota. O encontro tenso revela mais uma batalha na Terra do Nunca.",
+        "images": [
+            "PePa_gChatGPT_p4_r68_frame0.png",
+            "PePa_gChatGPT_p4_r68_frame1.png",
+            "PePa_gChatGPT_p4_r68_frame10.png",
+            "PePa_gChatGPT_p4_r68_frame11.png",
+            "PePa_gChatGPT_p4_r68_frame12.png",
+            "PePa_gChatGPT_p4_r68_frame2.png",
+            "PePa_gChatGPT_p4_r68_frame3.png",
+            "PePa_gChatGPT_p4_r68_frame4.png",
+            "PePa_gChatGPT_p4_r68_frame5.png",
+            "PePa_gChatGPT_p4_r68_frame6.png",
+            "PePa_gChatGPT_p4_r68_frame7.png",
+            "PePa_gChatGPT_p4_r68_frame8.png",
+            "PePa_gChatGPT_p4_r68_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p1_r39": {
         "prompt": "Escreva , com foco nas ações dos personagens, um paragráfo curto com orações simples de verbos dinâmicos e télicos sem subordinação, seguindo a estrutura Sujeito-Verbo-Objeto que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock irrompe. Sua casa recebe-o. Ele desdobra mapas, manipula instrumentos. Olhos brilham. Axel observa. A casa transforma-se. Preparativos enchem o espaço. A jornada se anuncia."
+        "generatedText": "Dr. Lidenbrock irrompe. Sua casa recebe-o. Ele desdobra mapas, manipula instrumentos. Olhos brilham. Axel observa. A casa transforma-se. Preparativos enchem o espaço. A jornada se anuncia.",
+        "images": [
+            "ViTe_gChatGPT_p1_r39_frame0.png",
+            "ViTe_gChatGPT_p1_r39_frame1.png",
+            "ViTe_gChatGPT_p1_r39_frame10.png",
+            "ViTe_gChatGPT_p1_r39_frame11.png",
+            "ViTe_gChatGPT_p1_r39_frame12.png",
+            "ViTe_gChatGPT_p1_r39_frame13.png",
+            "ViTe_gChatGPT_p1_r39_frame14.png",
+            "ViTe_gChatGPT_p1_r39_frame2.png",
+            "ViTe_gChatGPT_p1_r39_frame3.png",
+            "ViTe_gChatGPT_p1_r39_frame4.png",
+            "ViTe_gChatGPT_p1_r39_frame5.png",
+            "ViTe_gChatGPT_p1_r39_frame6.png",
+            "ViTe_gChatGPT_p1_r39_frame7.png",
+            "ViTe_gChatGPT_p1_r39_frame8.png",
+            "ViTe_gChatGPT_p1_r39_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p1_r40": {
         "prompt": "Escreva , com foco nas ações dos personagens, um paragráfo curto com orações simples de verbos dinâmicos e télicos sem subordinação, seguindo a estrutura Sujeito-Verbo-Objeto que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock entra em casa, desdobra mapas, agarra instrumentos. Seus olhos brilham, traça linhas, calcula. Axel observa, cativado. Cadeiras rangem, vidro tilinta. Casa se transforma em centro de preparação para jornada ao centro da Terra."
+        "generatedText": "Dr. Lidenbrock entra em casa, desdobra mapas, agarra instrumentos. Seus olhos brilham, traça linhas, calcula. Axel observa, cativado. Cadeiras rangem, vidro tilinta. Casa se transforma em centro de preparação para jornada ao centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p1_r40_frame0.png",
+            "ViTe_gChatGPT_p1_r40_frame1.png",
+            "ViTe_gChatGPT_p1_r40_frame10.png",
+            "ViTe_gChatGPT_p1_r40_frame11.png",
+            "ViTe_gChatGPT_p1_r40_frame12.png",
+            "ViTe_gChatGPT_p1_r40_frame13.png",
+            "ViTe_gChatGPT_p1_r40_frame14.png",
+            "ViTe_gChatGPT_p1_r40_frame15.png",
+            "ViTe_gChatGPT_p1_r40_frame16.png",
+            "ViTe_gChatGPT_p1_r40_frame17.png",
+            "ViTe_gChatGPT_p1_r40_frame18.png",
+            "ViTe_gChatGPT_p1_r40_frame19.png",
+            "ViTe_gChatGPT_p1_r40_frame2.png",
+            "ViTe_gChatGPT_p1_r40_frame20.png",
+            "ViTe_gChatGPT_p1_r40_frame21.png",
+            "ViTe_gChatGPT_p1_r40_frame22.png",
+            "ViTe_gChatGPT_p1_r40_frame23.png",
+            "ViTe_gChatGPT_p1_r40_frame24.png",
+            "ViTe_gChatGPT_p1_r40_frame3.png",
+            "ViTe_gChatGPT_p1_r40_frame4.png",
+            "ViTe_gChatGPT_p1_r40_frame5.png",
+            "ViTe_gChatGPT_p1_r40_frame6.png",
+            "ViTe_gChatGPT_p1_r40_frame7.png",
+            "ViTe_gChatGPT_p1_r40_frame8.png",
+            "ViTe_gChatGPT_p1_r40_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p1_r41": {
         "prompt": "Escreva , com foco nas ações dos personagens, um paragráfo curto com orações simples de verbos dinâmicos e télicos sem subordinação, seguindo a estrutura Sujeito-Verbo-Objeto que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock atravessa a porta, desdobra mapas, agarra instrumentos. Olhos brilham, traça linhas, calcula. Axel observa, cativado. Cadeiras rangem, vidro tilinta. A casa se transforma, prepara-se para a jornada ao centro da Terra."
+        "generatedText": "Dr. Lidenbrock atravessa a porta, desdobra mapas, agarra instrumentos. Olhos brilham, traça linhas, calcula. Axel observa, cativado. Cadeiras rangem, vidro tilinta. A casa se transforma, prepara-se para a jornada ao centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p1_r41_frame0.png",
+            "ViTe_gChatGPT_p1_r41_frame1.png",
+            "ViTe_gChatGPT_p1_r41_frame10.png",
+            "ViTe_gChatGPT_p1_r41_frame11.png",
+            "ViTe_gChatGPT_p1_r41_frame12.png",
+            "ViTe_gChatGPT_p1_r41_frame13.png",
+            "ViTe_gChatGPT_p1_r41_frame14.png",
+            "ViTe_gChatGPT_p1_r41_frame15.png",
+            "ViTe_gChatGPT_p1_r41_frame16.png",
+            "ViTe_gChatGPT_p1_r41_frame17.png",
+            "ViTe_gChatGPT_p1_r41_frame18.png",
+            "ViTe_gChatGPT_p1_r41_frame19.png",
+            "ViTe_gChatGPT_p1_r41_frame2.png",
+            "ViTe_gChatGPT_p1_r41_frame20.png",
+            "ViTe_gChatGPT_p1_r41_frame21.png",
+            "ViTe_gChatGPT_p1_r41_frame22.png",
+            "ViTe_gChatGPT_p1_r41_frame23.png",
+            "ViTe_gChatGPT_p1_r41_frame24.png",
+            "ViTe_gChatGPT_p1_r41_frame25.png",
+            "ViTe_gChatGPT_p1_r41_frame26.png",
+            "ViTe_gChatGPT_p1_r41_frame27.png",
+            "ViTe_gChatGPT_p1_r41_frame28.png",
+            "ViTe_gChatGPT_p1_r41_frame29.png",
+            "ViTe_gChatGPT_p1_r41_frame3.png",
+            "ViTe_gChatGPT_p1_r41_frame4.png",
+            "ViTe_gChatGPT_p1_r41_frame5.png",
+            "ViTe_gChatGPT_p1_r41_frame6.png",
+            "ViTe_gChatGPT_p1_r41_frame7.png",
+            "ViTe_gChatGPT_p1_r41_frame8.png",
+            "ViTe_gChatGPT_p1_r41_frame9.png"
+        ]
     },
     "ViTe_gBard_p2_r30": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "O professor Lidenbrock subiu as escadas de sua casa em Hamburgo, na Alemanha, com passos rápidos e decididos. Abriu a porta com força e entrou, gritando para o sobrinho, Axel: \"Axel! Axel! Estou aqui!\""
+        "generatedText": "O professor Lidenbrock subiu as escadas de sua casa em Hamburgo, na Alemanha, com passos rápidos e decididos. Abriu a porta com força e entrou, gritando para o sobrinho, Axel: \"Axel! Axel! Estou aqui!\"",
+        "images": [
+            "ViTe_gBard_p2_r30_frame0.png",
+            "ViTe_gBard_p2_r30_frame1.png",
+            "ViTe_gBard_p2_r30_frame2.png",
+            "ViTe_gBard_p2_r30_frame3.png",
+            "ViTe_gBard_p2_r30_frame4.png",
+            "ViTe_gBard_p2_r30_frame5.png",
+            "ViTe_gBard_p2_r30_frame6.png",
+            "ViTe_gBard_p2_r30_frame7.png"
+        ]
     },
     "ViTe_gChatGPT_p2_r26": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Ao chegar em casa, Dr. Lidenbrock agiu com pressa. Abriu a porta, examinou livros e mapas, preparando-se com determinação para a sua próxima aventura ao centro da Terra."
+        "generatedText": "Ao chegar em casa, Dr. Lidenbrock agiu com pressa. Abriu a porta, examinou livros e mapas, preparando-se com determinação para a sua próxima aventura ao centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p2_r26_frame0.png",
+            "ViTe_gChatGPT_p2_r26_frame1.png",
+            "ViTe_gChatGPT_p2_r26_frame10.png",
+            "ViTe_gChatGPT_p2_r26_frame11.png",
+            "ViTe_gChatGPT_p2_r26_frame12.png",
+            "ViTe_gChatGPT_p2_r26_frame13.png",
+            "ViTe_gChatGPT_p2_r26_frame14.png",
+            "ViTe_gChatGPT_p2_r26_frame15.png",
+            "ViTe_gChatGPT_p2_r26_frame2.png",
+            "ViTe_gChatGPT_p2_r26_frame3.png",
+            "ViTe_gChatGPT_p2_r26_frame4.png",
+            "ViTe_gChatGPT_p2_r26_frame5.png",
+            "ViTe_gChatGPT_p2_r26_frame6.png",
+            "ViTe_gChatGPT_p2_r26_frame7.png",
+            "ViTe_gChatGPT_p2_r26_frame8.png",
+            "ViTe_gChatGPT_p2_r26_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p2_r27": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock chegou em casa exausto. Encontrou um pergaminho intrigante. Decifrou-o rapidamente. Empolgado, preparou-se para a expedição. Partiu rumo ao desconhecido, ansioso pela aventura que o aguardava no centro da Terra."
+        "generatedText": "Dr. Lidenbrock chegou em casa exausto. Encontrou um pergaminho intrigante. Decifrou-o rapidamente. Empolgado, preparou-se para a expedição. Partiu rumo ao desconhecido, ansioso pela aventura que o aguardava no centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p2_r27_frame0.png",
+            "ViTe_gChatGPT_p2_r27_frame1.png",
+            "ViTe_gChatGPT_p2_r27_frame10.png",
+            "ViTe_gChatGPT_p2_r27_frame11.png",
+            "ViTe_gChatGPT_p2_r27_frame12.png",
+            "ViTe_gChatGPT_p2_r27_frame13.png",
+            "ViTe_gChatGPT_p2_r27_frame14.png",
+            "ViTe_gChatGPT_p2_r27_frame15.png",
+            "ViTe_gChatGPT_p2_r27_frame16.png",
+            "ViTe_gChatGPT_p2_r27_frame17.png",
+            "ViTe_gChatGPT_p2_r27_frame18.png",
+            "ViTe_gChatGPT_p2_r27_frame19.png",
+            "ViTe_gChatGPT_p2_r27_frame2.png",
+            "ViTe_gChatGPT_p2_r27_frame20.png",
+            "ViTe_gChatGPT_p2_r27_frame3.png",
+            "ViTe_gChatGPT_p2_r27_frame4.png",
+            "ViTe_gChatGPT_p2_r27_frame5.png",
+            "ViTe_gChatGPT_p2_r27_frame6.png",
+            "ViTe_gChatGPT_p2_r27_frame7.png",
+            "ViTe_gChatGPT_p2_r27_frame8.png",
+            "ViTe_gChatGPT_p2_r27_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p2_r28": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock retorna à sua casa, inspeciona antiguidades, encontra manuscrito, decifra código, descobre mensagem criptografada, desvenda caminho para o centro da Terra, decide embarcar em jornada arriscada."
+        "generatedText": "Dr. Lidenbrock retorna à sua casa, inspeciona antiguidades, encontra manuscrito, decifra código, descobre mensagem criptografada, desvenda caminho para o centro da Terra, decide embarcar em jornada arriscada.",
+        "images": [
+            "ViTe_gChatGPT_p2_r28_frame0.png",
+            "ViTe_gChatGPT_p2_r28_frame1.png",
+            "ViTe_gChatGPT_p2_r28_frame10.png",
+            "ViTe_gChatGPT_p2_r28_frame11.png",
+            "ViTe_gChatGPT_p2_r28_frame12.png",
+            "ViTe_gChatGPT_p2_r28_frame13.png",
+            "ViTe_gChatGPT_p2_r28_frame14.png",
+            "ViTe_gChatGPT_p2_r28_frame2.png",
+            "ViTe_gChatGPT_p2_r28_frame3.png",
+            "ViTe_gChatGPT_p2_r28_frame4.png",
+            "ViTe_gChatGPT_p2_r28_frame5.png",
+            "ViTe_gChatGPT_p2_r28_frame6.png",
+            "ViTe_gChatGPT_p2_r28_frame7.png",
+            "ViTe_gChatGPT_p2_r28_frame8.png",
+            "ViTe_gChatGPT_p2_r28_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p2_r29": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock volta para casa, encontra manuscrito, decifra código, descobre caminho para o centro da Terra, decide embarcar na jornada."
+        "generatedText": "Dr. Lidenbrock volta para casa, encontra manuscrito, decifra código, descobre caminho para o centro da Terra, decide embarcar na jornada.",
+        "images": [
+            "ViTe_gChatGPT_p2_r29_frame0.png",
+            "ViTe_gChatGPT_p2_r29_frame1.png",
+            "ViTe_gChatGPT_p2_r29_frame10.png",
+            "ViTe_gChatGPT_p2_r29_frame11.png",
+            "ViTe_gChatGPT_p2_r29_frame12.png",
+            "ViTe_gChatGPT_p2_r29_frame13.png",
+            "ViTe_gChatGPT_p2_r29_frame14.png",
+            "ViTe_gChatGPT_p2_r29_frame15.png",
+            "ViTe_gChatGPT_p2_r29_frame16.png",
+            "ViTe_gChatGPT_p2_r29_frame2.png",
+            "ViTe_gChatGPT_p2_r29_frame3.png",
+            "ViTe_gChatGPT_p2_r29_frame4.png",
+            "ViTe_gChatGPT_p2_r29_frame5.png",
+            "ViTe_gChatGPT_p2_r29_frame6.png",
+            "ViTe_gChatGPT_p2_r29_frame7.png",
+            "ViTe_gChatGPT_p2_r29_frame8.png",
+            "ViTe_gChatGPT_p2_r29_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p3_r42": {
         "prompt": "Escreva um paragráfo com orações simples de verbos dinâmicos e télicos sem subordinação, seguindo a estrutura \"Sujeito, Verbo, Objeto\" que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock chegou em casa, jogou a cartola na mesa, examinou os documentos e conferiu o livro na estante. Com expressão determinada, preparou os instrumentos para sua audaciosa jornada ao centro da Terra."
+        "generatedText": "Dr. Lidenbrock chegou em casa, jogou a cartola na mesa, examinou os documentos e conferiu o livro na estante. Com expressão determinada, preparou os instrumentos para sua audaciosa jornada ao centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p3_r42_frame0.png",
+            "ViTe_gChatGPT_p3_r42_frame1.png",
+            "ViTe_gChatGPT_p3_r42_frame10.png",
+            "ViTe_gChatGPT_p3_r42_frame11.png",
+            "ViTe_gChatGPT_p3_r42_frame12.png",
+            "ViTe_gChatGPT_p3_r42_frame13.png",
+            "ViTe_gChatGPT_p3_r42_frame14.png",
+            "ViTe_gChatGPT_p3_r42_frame15.png",
+            "ViTe_gChatGPT_p3_r42_frame16.png",
+            "ViTe_gChatGPT_p3_r42_frame17.png",
+            "ViTe_gChatGPT_p3_r42_frame18.png",
+            "ViTe_gChatGPT_p3_r42_frame19.png",
+            "ViTe_gChatGPT_p3_r42_frame2.png",
+            "ViTe_gChatGPT_p3_r42_frame3.png",
+            "ViTe_gChatGPT_p3_r42_frame4.png",
+            "ViTe_gChatGPT_p3_r42_frame5.png",
+            "ViTe_gChatGPT_p3_r42_frame6.png",
+            "ViTe_gChatGPT_p3_r42_frame7.png",
+            "ViTe_gChatGPT_p3_r42_frame8.png",
+            "ViTe_gChatGPT_p3_r42_frame9.png"
+        ]
     },
     "ViTe_gBard_p4_r33": {
         "prompt": "Escreva um paragráfo curto com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne",
-        "generatedText": "O Dr. Lidenbrock chegou em casa cansado e exausto, mas animado. Havia decifrado um pergaminho antigo que falava de uma viagem ao centro da Terra. Subiu as escadas até o apartamento e contou a Axel a notícia. Axel ficou maravilhado e concordou em ir com ele para a Islândia."
+        "generatedText": "O Dr. Lidenbrock chegou em casa cansado e exausto, mas animado. Havia decifrado um pergaminho antigo que falava de uma viagem ao centro da Terra. Subiu as escadas até o apartamento e contou a Axel a notícia. Axel ficou maravilhado e concordou em ir com ele para a Islândia.",
+        "images": [
+            "ViTe_gBard_p4_r33_frame0.png",
+            "ViTe_gBard_p4_r33_frame1.png",
+            "ViTe_gBard_p4_r33_frame10.png",
+            "ViTe_gBard_p4_r33_frame11.png",
+            "ViTe_gBard_p4_r33_frame12.png",
+            "ViTe_gBard_p4_r33_frame2.png",
+            "ViTe_gBard_p4_r33_frame3.png",
+            "ViTe_gBard_p4_r33_frame4.png",
+            "ViTe_gBard_p4_r33_frame5.png",
+            "ViTe_gBard_p4_r33_frame6.png",
+            "ViTe_gBard_p4_r33_frame7.png",
+            "ViTe_gBard_p4_r33_frame8.png",
+            "ViTe_gBard_p4_r33_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p4_r31": {
         "prompt": "Escreva um paragráfo curto com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne",
-        "generatedText": "Dr. Lidenbrock chegou em casa, encontrou um pergaminho e partiu para o centro da Terra com seu sobrinho Axel, iniciando uma jornada intrigante."
+        "generatedText": "Dr. Lidenbrock chegou em casa, encontrou um pergaminho e partiu para o centro da Terra com seu sobrinho Axel, iniciando uma jornada intrigante.",
+        "images": [
+            "ViTe_gChatGPT_p4_r31_frame0.png",
+            "ViTe_gChatGPT_p4_r31_frame1.png",
+            "ViTe_gChatGPT_p4_r31_frame10.png",
+            "ViTe_gChatGPT_p4_r31_frame11.png",
+            "ViTe_gChatGPT_p4_r31_frame12.png",
+            "ViTe_gChatGPT_p4_r31_frame13.png",
+            "ViTe_gChatGPT_p4_r31_frame14.png",
+            "ViTe_gChatGPT_p4_r31_frame2.png",
+            "ViTe_gChatGPT_p4_r31_frame3.png",
+            "ViTe_gChatGPT_p4_r31_frame4.png",
+            "ViTe_gChatGPT_p4_r31_frame5.png",
+            "ViTe_gChatGPT_p4_r31_frame6.png",
+            "ViTe_gChatGPT_p4_r31_frame7.png",
+            "ViTe_gChatGPT_p4_r31_frame8.png",
+            "ViTe_gChatGPT_p4_r31_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p4_r32": {
         "prompt": "Escreva um paragráfo curto com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne",
-        "generatedText": "Dr. Lidenbrock retornou a sua casa. Descobriu um pergaminho misterioso. Decifrou o código. Animado, preparou-se para a jornada. Partiu em busca do centro da Terra com seu sobrinho Axel, iniciando uma aventura fascinante."
+        "generatedText": "Dr. Lidenbrock retornou a sua casa. Descobriu um pergaminho misterioso. Decifrou o código. Animado, preparou-se para a jornada. Partiu em busca do centro da Terra com seu sobrinho Axel, iniciando uma aventura fascinante.",
+        "images": [
+            "ViTe_gChatGPT_p4_r32_frame0.png",
+            "ViTe_gChatGPT_p4_r32_frame1.png",
+            "ViTe_gChatGPT_p4_r32_frame10.png",
+            "ViTe_gChatGPT_p4_r32_frame11.png",
+            "ViTe_gChatGPT_p4_r32_frame12.png",
+            "ViTe_gChatGPT_p4_r32_frame13.png",
+            "ViTe_gChatGPT_p4_r32_frame14.png",
+            "ViTe_gChatGPT_p4_r32_frame15.png",
+            "ViTe_gChatGPT_p4_r32_frame16.png",
+            "ViTe_gChatGPT_p4_r32_frame17.png",
+            "ViTe_gChatGPT_p4_r32_frame18.png",
+            "ViTe_gChatGPT_p4_r32_frame19.png",
+            "ViTe_gChatGPT_p4_r32_frame2.png",
+            "ViTe_gChatGPT_p4_r32_frame20.png",
+            "ViTe_gChatGPT_p4_r32_frame21.png",
+            "ViTe_gChatGPT_p4_r32_frame22.png",
+            "ViTe_gChatGPT_p4_r32_frame3.png",
+            "ViTe_gChatGPT_p4_r32_frame4.png",
+            "ViTe_gChatGPT_p4_r32_frame5.png",
+            "ViTe_gChatGPT_p4_r32_frame6.png",
+            "ViTe_gChatGPT_p4_r32_frame7.png",
+            "ViTe_gChatGPT_p4_r32_frame8.png",
+            "ViTe_gChatGPT_p4_r32_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p5_r36": {
         "prompt": "Escreva, com foco nas ações dos personagens, um paragráfo curto com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock chegou em casa, pegou cartas apressadamente, vasculhou a biblioteca, revirou gavetas em busca de instrumentos e, no escritório, traçou planos fervorosos para sua expedição ao centro da Terra."
+        "generatedText": "Dr. Lidenbrock chegou em casa, pegou cartas apressadamente, vasculhou a biblioteca, revirou gavetas em busca de instrumentos e, no escritório, traçou planos fervorosos para sua expedição ao centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p5_r36_frame0.png",
+            "ViTe_gChatGPT_p5_r36_frame1.png",
+            "ViTe_gChatGPT_p5_r36_frame10.png",
+            "ViTe_gChatGPT_p5_r36_frame11.png",
+            "ViTe_gChatGPT_p5_r36_frame12.png",
+            "ViTe_gChatGPT_p5_r36_frame13.png",
+            "ViTe_gChatGPT_p5_r36_frame14.png",
+            "ViTe_gChatGPT_p5_r36_frame15.png",
+            "ViTe_gChatGPT_p5_r36_frame16.png",
+            "ViTe_gChatGPT_p5_r36_frame2.png",
+            "ViTe_gChatGPT_p5_r36_frame3.png",
+            "ViTe_gChatGPT_p5_r36_frame4.png",
+            "ViTe_gChatGPT_p5_r36_frame5.png",
+            "ViTe_gChatGPT_p5_r36_frame6.png",
+            "ViTe_gChatGPT_p5_r36_frame7.png",
+            "ViTe_gChatGPT_p5_r36_frame8.png",
+            "ViTe_gChatGPT_p5_r36_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p5_r37": {
         "prompt": "Escreva, com foco nas ações dos personagens, um paragráfo curto com orações simples de verbos dinâmicos e télicos sem subordinação que descreva a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock retorna, examina antiguidades, descobre manuscrito, decifra código, revela mensagem secreta, desvenda caminho para o centro da Terra, decide embarcar em jornada perigosa."
+        "generatedText": "Dr. Lidenbrock retorna, examina antiguidades, descobre manuscrito, decifra código, revela mensagem secreta, desvenda caminho para o centro da Terra, decide embarcar em jornada perigosa.",
+        "images": [
+            "ViTe_gChatGPT_p5_r37_frame0.png",
+            "ViTe_gChatGPT_p5_r37_frame1.png",
+            "ViTe_gChatGPT_p5_r37_frame10.png",
+            "ViTe_gChatGPT_p5_r37_frame11.png",
+            "ViTe_gChatGPT_p5_r37_frame12.png",
+            "ViTe_gChatGPT_p5_r37_frame13.png",
+            "ViTe_gChatGPT_p5_r37_frame14.png",
+            "ViTe_gChatGPT_p5_r37_frame15.png",
+            "ViTe_gChatGPT_p5_r37_frame16.png",
+            "ViTe_gChatGPT_p5_r37_frame17.png",
+            "ViTe_gChatGPT_p5_r37_frame18.png",
+            "ViTe_gChatGPT_p5_r37_frame19.png",
+            "ViTe_gChatGPT_p5_r37_frame2.png",
+            "ViTe_gChatGPT_p5_r37_frame20.png",
+            "ViTe_gChatGPT_p5_r37_frame21.png",
+            "ViTe_gChatGPT_p5_r37_frame22.png",
+            "ViTe_gChatGPT_p5_r37_frame3.png",
+            "ViTe_gChatGPT_p5_r37_frame4.png",
+            "ViTe_gChatGPT_p5_r37_frame5.png",
+            "ViTe_gChatGPT_p5_r37_frame6.png",
+            "ViTe_gChatGPT_p5_r37_frame7.png",
+            "ViTe_gChatGPT_p5_r37_frame8.png",
+            "ViTe_gChatGPT_p5_r37_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p6_r34": {
         "prompt": "Reescreva , com foco nas ações dos personagens, a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock regressa à sua casa em Hamburgo com pressa, exibindo um pergaminho intrigante. Decifra-o com fervor, iniciando assim uma jornada que o levará ao centro da Terra."
+        "generatedText": "Dr. Lidenbrock regressa à sua casa em Hamburgo com pressa, exibindo um pergaminho intrigante. Decifra-o com fervor, iniciando assim uma jornada que o levará ao centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p6_r34_frame0.png",
+            "ViTe_gChatGPT_p6_r34_frame1.png",
+            "ViTe_gChatGPT_p6_r34_frame10.png",
+            "ViTe_gChatGPT_p6_r34_frame11.png",
+            "ViTe_gChatGPT_p6_r34_frame12.png",
+            "ViTe_gChatGPT_p6_r34_frame2.png",
+            "ViTe_gChatGPT_p6_r34_frame3.png",
+            "ViTe_gChatGPT_p6_r34_frame4.png",
+            "ViTe_gChatGPT_p6_r34_frame5.png",
+            "ViTe_gChatGPT_p6_r34_frame6.png",
+            "ViTe_gChatGPT_p6_r34_frame7.png",
+            "ViTe_gChatGPT_p6_r34_frame8.png",
+            "ViTe_gChatGPT_p6_r34_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p6_r35": {
         "prompt": "Reescreva , com foco nas ações dos personagens, a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock chega apressadamente à sua casa em Hamburgo, exibindo um pergaminho intrigante. Com fervor, decifra as mensagens contidas, desencadeando assim o início de uma emocionante jornada para o centro da Terra."
+        "generatedText": "Dr. Lidenbrock chega apressadamente à sua casa em Hamburgo, exibindo um pergaminho intrigante. Com fervor, decifra as mensagens contidas, desencadeando assim o início de uma emocionante jornada para o centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p6_r35_frame0.png",
+            "ViTe_gChatGPT_p6_r35_frame1.png",
+            "ViTe_gChatGPT_p6_r35_frame2.png",
+            "ViTe_gChatGPT_p6_r35_frame3.png",
+            "ViTe_gChatGPT_p6_r35_frame4.png",
+            "ViTe_gChatGPT_p6_r35_frame5.png",
+            "ViTe_gChatGPT_p6_r35_frame6.png",
+            "ViTe_gChatGPT_p6_r35_frame7.png",
+            "ViTe_gChatGPT_p6_r35_frame8.png",
+            "ViTe_gChatGPT_p6_r35_frame9.png"
+        ]
     },
     "ViTe_gBard_p7_r25": {
         "prompt": "Reescreva de maneira simples e com verbos télicos e dinâmicos e sem descrição de estados, a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock chegou em casa, subiu as escadas, abriu a porta do seu quarto, pegou o pergaminho, leu-o, gritou por Axel, acordou a empregada, contou-lhe o que tinha descoberto, e a empregada, assustada, correu para o quarto de Axel."
+        "generatedText": "Dr. Lidenbrock chegou em casa, subiu as escadas, abriu a porta do seu quarto, pegou o pergaminho, leu-o, gritou por Axel, acordou a empregada, contou-lhe o que tinha descoberto, e a empregada, assustada, correu para o quarto de Axel.",
+        "images": [
+            "ViTe_gBard_p7_r25_frame0.png",
+            "ViTe_gBard_p7_r25_frame1.png",
+            "ViTe_gBard_p7_r25_frame10.png",
+            "ViTe_gBard_p7_r25_frame11.png",
+            "ViTe_gBard_p7_r25_frame12.png",
+            "ViTe_gBard_p7_r25_frame13.png",
+            "ViTe_gBard_p7_r25_frame14.png",
+            "ViTe_gBard_p7_r25_frame15.png",
+            "ViTe_gBard_p7_r25_frame16.png",
+            "ViTe_gBard_p7_r25_frame17.png",
+            "ViTe_gBard_p7_r25_frame18.png",
+            "ViTe_gBard_p7_r25_frame19.png",
+            "ViTe_gBard_p7_r25_frame2.png",
+            "ViTe_gBard_p7_r25_frame20.png",
+            "ViTe_gBard_p7_r25_frame21.png",
+            "ViTe_gBard_p7_r25_frame22.png",
+            "ViTe_gBard_p7_r25_frame23.png",
+            "ViTe_gBard_p7_r25_frame24.png",
+            "ViTe_gBard_p7_r25_frame25.png",
+            "ViTe_gBard_p7_r25_frame26.png",
+            "ViTe_gBard_p7_r25_frame27.png",
+            "ViTe_gBard_p7_r25_frame28.png",
+            "ViTe_gBard_p7_r25_frame29.png",
+            "ViTe_gBard_p7_r25_frame3.png",
+            "ViTe_gBard_p7_r25_frame30.png",
+            "ViTe_gBard_p7_r25_frame31.png",
+            "ViTe_gBard_p7_r25_frame32.png",
+            "ViTe_gBard_p7_r25_frame33.png",
+            "ViTe_gBard_p7_r25_frame34.png",
+            "ViTe_gBard_p7_r25_frame35.png",
+            "ViTe_gBard_p7_r25_frame36.png",
+            "ViTe_gBard_p7_r25_frame37.png",
+            "ViTe_gBard_p7_r25_frame4.png",
+            "ViTe_gBard_p7_r25_frame5.png",
+            "ViTe_gBard_p7_r25_frame6.png",
+            "ViTe_gBard_p7_r25_frame7.png",
+            "ViTe_gBard_p7_r25_frame8.png",
+            "ViTe_gBard_p7_r25_frame9.png"
+        ]
     },
     "ViTe_gChatGPT_p7_r24": {
         "prompt": "Reescreva de maneira simples e com verbos télicos e dinâmicos e sem descrição de estados, a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "O Dr. Lidenbrock chegou em casa cheio de energia. Entrou rapidamente, chamou seu sobrinho Axel e começou a procurar por informações importantes. Derrubou livros e espalhou mapas pelo chão, planejando uma busca ousada. A casa, antes quieta, ficou agitada, pois os dois se preparavam para uma aventura extraordinária."
+        "generatedText": "O Dr. Lidenbrock chegou em casa cheio de energia. Entrou rapidamente, chamou seu sobrinho Axel e começou a procurar por informações importantes. Derrubou livros e espalhou mapas pelo chão, planejando uma busca ousada. A casa, antes quieta, ficou agitada, pois os dois se preparavam para uma aventura extraordinária.",
+        "images": []
     },
     "ViTe_gChatGPT_p8_r38": {
         "prompt": "Reescreva de maneira suncinta com foco nas ações dos personagens, a chegada de Dr. Lidenbrock a sua casa na história Viagem ao Centro da Terra de Júlio Verne.",
-        "generatedText": "Dr. Lidenbrock retorna rapidamente à sua casa em Hamburgo, exibindo um pergaminho misterioso. Decifra-o com entusiasmo, dando início a uma jornada extraordinária para o centro da Terra."
+        "generatedText": "Dr. Lidenbrock retorna rapidamente à sua casa em Hamburgo, exibindo um pergaminho misterioso. Decifra-o com entusiasmo, dando início a uma jornada extraordinária para o centro da Terra.",
+        "images": [
+            "ViTe_gChatGPT_p8_r38_frame0.png",
+            "ViTe_gChatGPT_p8_r38_frame1.png",
+            "ViTe_gChatGPT_p8_r38_frame10.png",
+            "ViTe_gChatGPT_p8_r38_frame2.png",
+            "ViTe_gChatGPT_p8_r38_frame3.png",
+            "ViTe_gChatGPT_p8_r38_frame4.png",
+            "ViTe_gChatGPT_p8_r38_frame5.png",
+            "ViTe_gChatGPT_p8_r38_frame6.png",
+            "ViTe_gChatGPT_p8_r38_frame7.png",
+            "ViTe_gChatGPT_p8_r38_frame8.png",
+            "ViTe_gChatGPT_p8_r38_frame9.png"
+        ]
     }
 }
