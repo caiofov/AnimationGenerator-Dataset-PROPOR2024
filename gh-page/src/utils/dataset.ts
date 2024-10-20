@@ -1,8 +1,14 @@
 import dataset from "../assets/dataset/dataset.json";
 
 export type IdType = keyof typeof dataset;
+export type StoryIdType = "Ala" | "InJo" | "ViTe" | "ChVe" | "PePa" | "PePr";
+export type GeneratorType = "Bard" | "ChatGPT" | "LuzIA";
 export interface DatasetType {
   id: IdType;
+  storyID: StoryIdType;
+  generator: GeneratorType;
+  promptNumber: string;
+  resultNumber: string;
   prompt: string;
   generatedText: string;
   images: string[];
@@ -10,22 +16,31 @@ export interface DatasetType {
 }
 
 export const DATASET_LIST: DatasetType[] = Object.entries(dataset).map(
-  ([key, { prompt, generatedText, images, map }]) => ({
-    id: key as IdType,
-    prompt,
-    generatedText,
-    images,
-    map: map ? `Map${map.toString().padStart(3, "0")}.json` : null,
-  })
+  ([key, { prompt, generatedText, images, map }]) => {
+    const match = key.match(
+      /^(?<story>.+)_g(?<generator>.+)_p(?<promptNumber>\d+)_r(?<resultNumber>\d+)$/
+    )!;
+    const { story, generator, promptNumber, resultNumber } = match.groups!;
+
+    return {
+      id: key as IdType,
+      storyID: story as StoryIdType,
+      generator: generator as GeneratorType,
+      promptNumber,
+      resultNumber,
+      prompt,
+      generatedText,
+      images,
+      map: map ? `Map${map.toString().padStart(3, "0")}.json` : null,
+    };
+  }
 );
 
-export type StoryIdType = "Ala" | "InJo" | "ViTe" | "ChVe" | "PePa" | "PePr";
-
-export const STORIES: { id: StoryIdType; name: string }[] = [
-  { id: "Ala", name: "Aladdin" },
-  { id: "InJo", name: "Indiana Jones" },
-  { id: "ViTe", name: "Journey to the Center of the Earth" },
-  { id: "ChVe", name: "Little Red Riding Hood" },
-  { id: "PePa", name: "Peter Pan" },
-  { id: "PePr", name: "The Little Prince" },
-];
+export const STORIES: { [k in StoryIdType]: string } = {
+  Ala: "Aladdin",
+  InJo: "Indiana Jones",
+  ViTe: "Journey to the Center of the Earth",
+  ChVe: "Little Red Riding Hood",
+  PePa: "Peter Pan",
+  PePr: "The Little Prince",
+};
