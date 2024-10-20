@@ -150,61 +150,84 @@ const DatasetGrid: React.FC<{ dataset: DatasetType[] }> = ({ dataset }) => {
   );
 };
 
+type DispatchType = { filter: StoryIdType[] };
+
+const DatasetFilter: React.FC<{
+  dispatch: (action: DispatchType) => void;
+  filter: StoryIdType[];
+}> = ({ dispatch, filter }) => {
+  return (
+    <FormControl sx={{ width: "30%" }}>
+      <InputLabel>Select stories</InputLabel>
+      <Select
+        multiple
+        value={filter}
+        onChange={(v) => {
+          dispatch({ filter: v.target.value as StoryIdType[] });
+        }}
+        input={<OutlinedInput />}
+        renderValue={(selected) => (
+          <Box
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: 0.5,
+              height: "40px",
+              width: "100%",
+              overflowY: "auto",
+              alignItems: "center",
+            }}
+          >
+            {selected.sort().map((value) => (
+              <Chip key={value} label={STORIES[value]} />
+            ))}
+          </Box>
+        )}
+        slotProps={{ input: { sx: { p: "10px" } } }}
+      >
+        {typedKeys(STORIES).map((id) => (
+          <MenuItem key={id} value={id}>
+            <Checkbox checked={filter.includes(id as StoryIdType)} />
+            <ListItemText>{STORIES[id]}</ListItemText>
+          </MenuItem>
+        ))}
+      </Select>
+    </FormControl>
+  );
+};
+
 export const DatasetDisplay = () => {
   const [filter, setFilter] = useState<StoryIdType[]>(
     Object.keys(STORIES) as StoryIdType[]
   );
 
-  const reducer = (state: DatasetType[], action: { filter: StoryIdType[] }) => {
+  const reducer = (_: DatasetType[], action: DispatchType) => {
     setFilter(action.filter);
     return DATASET_LIST.filter(({ id }) => {
-      return action.filter.some((f) => id.startsWith(f));
+      return action.filter.some(id.startsWith);
     });
   };
 
   const [dataset, dispatch] = useReducer(reducer, DATASET_LIST);
   return (
     <Stack>
-      <FormControl sx={{ width: "30%" }}>
-        <InputLabel>Select stories</InputLabel>
-        <Select
-          multiple
-          value={filter}
-          onChange={(v) => {
-            dispatch({ filter: v.target.value as StoryIdType[] });
-          }}
-          input={<OutlinedInput />}
-          renderValue={(selected) => (
-            <Box
-              sx={{
-                display: "flex",
-                flexWrap: "wrap",
-                gap: 0.5,
-                height: "40px",
-                width: "100%",
-                overflowY: "auto",
-                alignItems: "center",
-              }}
-            >
-              {selected.sort().map((value) => (
-                <Chip key={value} label={STORIES[value]} />
-              ))}
-            </Box>
-          )}
-          slotProps={{ input: { sx: { p: "10px" } } }}
-        >
-          {typedKeys(STORIES).map((id) => (
-            <MenuItem key={id} value={id}>
-              <Checkbox checked={filter.includes(id as StoryIdType)} />
-              <ListItemText>{STORIES[id]}</ListItemText>
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
+      <DatasetFilter dispatch={dispatch} filter={filter} />
       {dataset.length ? (
         <DatasetGrid dataset={dataset} />
       ) : (
-        "No animations found, try selecting different filters"
+        <Box
+          width="100%"
+          height="100%"
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Typography variant="inherit" fontSize="2rem" marginTop="5%">
+            No animations found, try selecting different filters
+          </Typography>
+        </Box>
       )}
     </Stack>
   );
