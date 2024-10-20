@@ -11,6 +11,7 @@ import {
   CardContent,
   Checkbox,
   Chip,
+  Container,
   Divider,
   FormControl,
   Grid2,
@@ -23,6 +24,7 @@ import {
   MenuItem,
   OutlinedInput,
   Select,
+  Stack,
   Tooltip,
   Typography,
 } from "@mui/material";
@@ -162,23 +164,34 @@ export const DatasetDisplay = () => {
 
   const [dataset, dispatch] = useReducer(reducer, DATASET_LIST);
   return (
-    <>
-      <FormControl sx={{ m: 1 }}>
+    <Stack>
+      <FormControl sx={{ width: "30%" }}>
         <InputLabel>Select stories</InputLabel>
         <Select
           multiple
           value={filter}
-          onChange={(v) =>
-            dispatch({ filter: v.target.value as StoryIdType[] })
-          }
+          onChange={(v) => {
+            dispatch({ filter: v.target.value as StoryIdType[] });
+          }}
           input={<OutlinedInput />}
           renderValue={(selected) => (
-            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.5 }}>
-              {selected.map((value) => (
+            <Box
+              sx={{
+                display: "flex",
+                flexWrap: "wrap",
+                gap: 0.5,
+                height: "40px",
+                width: "100%",
+                overflowY: "auto",
+                alignItems: "center",
+              }}
+            >
+              {selected.sort().map((value) => (
                 <Chip key={value} label={STORIES[value]} />
               ))}
             </Box>
           )}
+          slotProps={{ input: { sx: { p: "10px" } } }}
         >
           {typedKeys(STORIES).map((id) => (
             <MenuItem key={id} value={id}>
@@ -188,7 +201,11 @@ export const DatasetDisplay = () => {
           ))}
         </Select>
       </FormControl>
-      <DatasetGrid dataset={dataset} />
-    </>
+      {dataset.length ? (
+        <DatasetGrid dataset={dataset} />
+      ) : (
+        "No animations found, try selecting different filters"
+      )}
+    </Stack>
   );
 };
