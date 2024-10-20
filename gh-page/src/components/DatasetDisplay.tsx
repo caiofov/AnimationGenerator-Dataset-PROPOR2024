@@ -1,20 +1,28 @@
 import React, { useReducer, useState } from "react";
-import { DATASET_LIST, DatasetType, STORIES } from "../utils/dataset";
+import {
+  DATASET_LIST,
+  DatasetType,
+  STORIES,
+  StoryIdType,
+} from "../utils/dataset";
 import {
   Box,
-  Button,
-  ButtonGroup,
   Card,
-  CardActionArea,
   CardContent,
+  Checkbox,
   Chip,
   Divider,
+  FormControl,
   Grid2,
+  InputLabel,
   Link,
   List,
   ListItem,
   ListItemIcon,
   ListItemText,
+  MenuItem,
+  OutlinedInput,
+  Select,
   Tooltip,
   Typography,
 } from "@mui/material";
@@ -27,10 +35,7 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ChatIcon from "@mui/icons-material/Chat";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
-const buttons = [
-  { id: "", name: "All" },
-  ...Object.entries(STORIES).map(([k, v]) => ({ id: k, name: v })),
-];
+import { typedKeys } from "../utils/types";
 
 const itemIcons = {
   Story: MenuBookIcon,
@@ -144,29 +149,45 @@ const DatasetGrid: React.FC<{ dataset: DatasetType[] }> = ({ dataset }) => {
 };
 
 export const DatasetDisplay = () => {
-  const [filter, setFilter] = useState("");
+  const [filter, setFilter] = useState<StoryIdType[]>(
+    Object.keys(STORIES) as StoryIdType[]
+  );
 
-  const reducer = (state: DatasetType[], action: { filter: string }) => {
+  const reducer = (state: DatasetType[], action: { filter: StoryIdType[] }) => {
     setFilter(action.filter);
-    return DATASET_LIST.filter(({ id }) => id.startsWith(action.filter));
+    return DATASET_LIST.filter(({ id }) =>
+      filter.some((f) => id.startsWith(f))
+    );
   };
 
   const [dataset, dispatch] = useReducer(reducer, DATASET_LIST);
   return (
     <>
-      <ButtonGroup>
-        {buttons.map(({ id, name }) => (
-          <Button
-            key={id}
-            variant={filter === id ? "contained" : "outlined"}
-            onClick={() => {
-              dispatch({ filter: id });
-            }}
-          >
-            {name}
-          </Button>
-        ))}
-      </ButtonGroup>
+      <FormControl sx={{ m: 1 }}>
+        <InputLabel>Select stories</InputLabel>
+        <Select
+          multiple
+          value={filter}
+          onChange={(v) =>
+            dispatch({ filter: v.target.value as StoryIdType[] })
+          }
+          input={<OutlinedInput />}
+          renderValue={(selected) => (
+            <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.5 }}>
+              {selected.map((value) => (
+                <Chip key={value} label={STORIES[value]} />
+              ))}
+            </Box>
+          )}
+        >
+          {typedKeys(STORIES).map((id) => (
+            <MenuItem key={id} value={id}>
+              <Checkbox checked={filter.includes(id as StoryIdType)} />
+              <ListItemText>{STORIES[id]}</ListItemText>
+            </MenuItem>
+          ))}
+        </Select>
+      </FormControl>
       <DatasetGrid dataset={dataset} />
     </>
   );
