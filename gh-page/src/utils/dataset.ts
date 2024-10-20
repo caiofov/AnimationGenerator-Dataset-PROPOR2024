@@ -6,13 +6,16 @@ export interface DatasetType {
   prompt: string;
   generatedText: string;
   images: string[];
+  map: string | null;
 }
+
 export const DATASET_LIST: DatasetType[] = Object.entries(dataset).map(
-  ([key, { prompt, generatedText, images }]) => ({
+  ([key, { prompt, generatedText, images, map }]) => ({
     id: key as IdType,
     prompt,
     generatedText,
     images,
+    map: map ? `Map${map.toString().padStart(3, "0")}.json` : null,
   })
 );
 

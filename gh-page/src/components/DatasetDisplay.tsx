@@ -8,20 +8,28 @@ import {
   Chip,
   Divider,
   Grid2,
+  Link,
+  Tooltip,
   Typography,
 } from "@mui/material";
 import { Carousel } from "./Carousel";
-
+import SubjectIcon from "@mui/icons-material/Subject";
 const buttons = [{ id: "", name: "All" }, ...STORIES];
 
 const DatasetGrid: React.FC<{ dataset: DatasetType[] }> = ({ dataset }) => {
   return (
     <Grid2 container spacing={2}>
-      {dataset.map(({ id, prompt, generatedText, images }) => {
+      {dataset.map(({ id, prompt, generatedText, images, map }) => {
         return (
           <Grid2 size={4} key={id}>
             <Card key={id}>
-              <Carousel {...{ images, id }} />
+              {images.length ? (
+                <Carousel {...{ images, id }} />
+              ) : (
+                <Typography>
+                  Something went wrong with this animation
+                </Typography>
+              )}
 
               <Divider sx={{ marginTop: "15px" }}>
                 <Chip label={<Typography>{id}</Typography>} />
@@ -36,6 +44,19 @@ const DatasetGrid: React.FC<{ dataset: DatasetType[] }> = ({ dataset }) => {
                 </Divider>
                 {generatedText}
               </CardContent>
+
+              {map ? (
+                <Tooltip title="See map JSON on GitHub">
+                  <Link
+                    href={`https://github.com/caiofov/AnimationGenerator-Dataset-PROPOR2024/blob/main/Animations/data/${map}`}
+                    target="_blank"
+                    underline="none"
+                    variant="body2"
+                  >
+                    <SubjectIcon />
+                  </Link>
+                </Tooltip>
+              ) : null}
             </Card>
           </Grid2>
         );
