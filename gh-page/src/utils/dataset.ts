@@ -1,7 +1,7 @@
 import dataset from "../assets/dataset/dataset.json";
 
 export type IdType = keyof typeof dataset;
-export type StoryIdType = "Ala" | "InJo" | "ViTe" | "ChVe" | "PePa" | "PePr";
+export type StoryIdType = "Ala" | "ViTe" | "ChVe" | "PePa" | "PePr"; // | "InJo";
 export type GeneratorType = "Bard" | "ChatGPT" | "LuzIA";
 export interface DatasetType {
   id: IdType;
@@ -15,8 +15,9 @@ export interface DatasetType {
   map: string | null;
 }
 
-export const DATASET_LIST: DatasetType[] = Object.entries(dataset).map(
-  ([key, { prompt, generatedText, images, map }]) => {
+export const DATASET_LIST: DatasetType[] = Object.entries(dataset)
+  .filter(([key, _]) => key !== "InJo")
+  .map(([key, { prompt, generatedText, images, map }]) => {
     const match = key.match(
       /^(?<story>.+)_g(?<generator>.+)_p(?<promptNumber>\d+)_r(?<resultNumber>\d+)$/
     )!;
@@ -33,12 +34,11 @@ export const DATASET_LIST: DatasetType[] = Object.entries(dataset).map(
       images,
       map: map ? `Map${map.toString().padStart(3, "0")}.json` : null,
     };
-  }
-);
+  });
 
 export const STORIES: { [k in StoryIdType]: string } = {
   Ala: "Aladdin",
-  InJo: "Indiana Jones",
+  // InJo: "Indiana Jones",
   ViTe: "Journey to the Center of the Earth",
   ChVe: "Little Red Riding Hood",
   PePa: "Peter Pan",
