@@ -155,9 +155,9 @@ export const DatasetDisplay = () => {
 
   const reducer = (state: DatasetType[], action: { filter: StoryIdType[] }) => {
     setFilter(action.filter);
-    return DATASET_LIST.filter(({ id }) =>
-      filter.some((f) => id.startsWith(f))
-    );
+    return DATASET_LIST.filter(({ id }) => {
+      return action.filter.some((f) => id.startsWith(f));
+    });
   };
 
   const [dataset, dispatch] = useReducer(reducer, DATASET_LIST);
