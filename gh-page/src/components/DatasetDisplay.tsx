@@ -9,21 +9,14 @@ import {
   Box,
   Card,
   CardContent,
-  Checkbox,
   Chip,
-  Container,
   Divider,
-  FormControl,
   Grid2,
-  InputLabel,
   Link,
   List,
   ListItem,
   ListItemIcon,
   ListItemText,
-  MenuItem,
-  OutlinedInput,
-  Select,
   Stack,
   Tooltip,
   Typography,
@@ -38,6 +31,7 @@ import ChatIcon from "@mui/icons-material/Chat";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
 import { typedKeys } from "../utils/types";
+import { MultiSelect } from "./MultiSelect";
 
 const itemIcons = {
   Story: MenuBookIcon,
@@ -157,42 +151,15 @@ const DatasetFilter: React.FC<{
   filter: StoryIdType[];
 }> = ({ dispatch, filter }) => {
   return (
-    <FormControl sx={{ width: "30%" }}>
-      <InputLabel>Select stories</InputLabel>
-      <Select
-        multiple
-        value={filter}
-        onChange={(v) => {
-          dispatch({ filter: v.target.value as StoryIdType[] });
-        }}
-        input={<OutlinedInput />}
-        renderValue={(selected) => (
-          <Box
-            sx={{
-              display: "flex",
-              flexWrap: "wrap",
-              gap: 0.5,
-              height: "40px",
-              width: "100%",
-              overflowY: "auto",
-              alignItems: "center",
-            }}
-          >
-            {selected.sort().map((value) => (
-              <Chip key={value} label={STORIES[value]} />
-            ))}
-          </Box>
-        )}
-        slotProps={{ input: { sx: { p: "10px" } } }}
-      >
-        {typedKeys(STORIES).map((id) => (
-          <MenuItem key={id} value={id}>
-            <Checkbox checked={filter.includes(id as StoryIdType)} />
-            <ListItemText>{STORIES[id]}</ListItemText>
-          </MenuItem>
-        ))}
-      </Select>
-    </FormControl>
+    <MultiSelect<StoryIdType>
+      inputLabel="Select stories"
+      selectedValues={filter}
+      allValues={typedKeys(STORIES)}
+      onChange={(v) => {
+        dispatch({ filter: v });
+      }}
+      getSelectLabel={(v) => STORIES[v]}
+    />
   );
 };
 
@@ -204,7 +171,7 @@ export const DatasetDisplay = () => {
   const reducer = (_: DatasetType[], action: DispatchType) => {
     setFilter(action.filter);
     return DATASET_LIST.filter(({ id }) => {
-      return action.filter.some(id.startsWith);
+      return action.filter.some((f) => id.startsWith(f));
     });
   };
 
