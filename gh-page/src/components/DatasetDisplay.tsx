@@ -225,8 +225,13 @@ export const DatasetDisplay = () => {
       </Stack>
       <Stack gap="10px">
         <Typography component="section" variant="subtitle2" fontSize="1.5rem">
-          Results
+          Dataset
         </Typography>
+
+        <Typography component="p" variant="body2">
+          {`(${dataset.length} results found)`}
+        </Typography>
+
         {dataset.length ? (
           <DatasetGrid dataset={dataset} />
         ) : (
