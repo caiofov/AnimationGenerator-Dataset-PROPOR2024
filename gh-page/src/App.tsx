@@ -5,6 +5,7 @@ import {
   CssBaseline,
   ThemeProvider,
 } from "@mui/material";
+import { Header } from "./components/Header";
 
 const theme = createTheme({ palette: { mode: "light" } });
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <CssBaseline />
 
       <Container maxWidth="xl">
+        <Header />
+
         <DatasetDisplay />
       </Container>
     </ThemeProvider>
