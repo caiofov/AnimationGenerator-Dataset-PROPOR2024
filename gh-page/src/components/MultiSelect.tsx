@@ -27,7 +27,7 @@ export const MultiSelect = <T extends string>({
   onChange,
 }: MultiSelectProps<T>) => {
   return (
-    <FormControl sx={{ width: "30%" }}>
+    <FormControl>
       <InputLabel>{inputLabel}</InputLabel>
       <Select
         multiple

@@ -2,6 +2,8 @@ import React, { useReducer, useState } from "react";
 import {
   DATASET_LIST,
   DatasetType,
+  GENERATORS,
+  GeneratorType,
   STORIES,
   StoryIdType,
 } from "../utils/dataset";
@@ -144,34 +146,49 @@ const DatasetGrid: React.FC<{ dataset: DatasetType[] }> = ({ dataset }) => {
   );
 };
 
-type DispatchType = { filter: StoryIdType[] };
+type DispatchType = {
+  storyFilter: StoryIdType[];
+  generatorFilter: GeneratorType[];
+};
 
 const DatasetFilter: React.FC<{
   dispatch: (action: DispatchType) => void;
-  filter: StoryIdType[];
-}> = ({ dispatch, filter }) => {
+}> = ({ dispatch }) => {
+  const [storyFilter, setStoryFilter] = useState(typedKeys(STORIES));
+  const [generatorFilter, setGeneratorFilter] = useState(GENERATORS);
   return (
-    <MultiSelect<StoryIdType>
-      inputLabel="Select stories"
-      selectedValues={filter}
-      allValues={typedKeys(STORIES)}
-      onChange={(v) => {
-        dispatch({ filter: v });
-      }}
-      getSelectLabel={(v) => STORIES[v]}
-    />
+    <>
+      <MultiSelect<StoryIdType>
+        inputLabel="Select stories"
+        selectedValues={storyFilter}
+        allValues={typedKeys(STORIES)}
+        onChange={(v) => {
+          setStoryFilter(v);
+          dispatch({ storyFilter: v, generatorFilter });
+        }}
+        getSelectLabel={(v) => STORIES[v]}
+      />
+      <MultiSelect<GeneratorType>
+        inputLabel="Select generators"
+        selectedValues={generatorFilter}
+        allValues={GENERATORS}
+        onChange={(v) => {
+          setGeneratorFilter(v);
+          dispatch({ generatorFilter: v, storyFilter });
+        }}
+        getSelectLabel={(v) => v}
+      />
+    </>
   );
 };
 
 export const DatasetDisplay = () => {
-  const [filter, setFilter] = useState<StoryIdType[]>(
-    Object.keys(STORIES) as StoryIdType[]
-  );
-
   const reducer = (_: DatasetType[], action: DispatchType) => {
-    setFilter(action.filter);
-    return DATASET_LIST.filter(({ id }) => {
-      return action.filter.some((f) => id.startsWith(f));
+    return DATASET_LIST.filter(({ id, generator }) => {
+      return (
+        action.storyFilter.some((f) => id.startsWith(f)) &&
+        action.generatorFilter.includes(generator)
+      );
     });
   };
 
@@ -183,7 +200,7 @@ export const DatasetDisplay = () => {
           Filters
         </Typography>
 
-        <DatasetFilter dispatch={dispatch} filter={filter} />
+        <DatasetFilter dispatch={dispatch} />
       </Stack>
       <Stack gap="10px">
         <Typography component="section" variant="subtitle2" fontSize="1.5rem">
