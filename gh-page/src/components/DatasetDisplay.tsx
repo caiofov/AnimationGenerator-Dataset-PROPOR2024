@@ -13,7 +13,10 @@ import {
   CardContent,
   Chip,
   Divider,
+  FormControl,
   Grid2,
+  Input,
+  InputLabel,
   Link,
   List,
   ListItem,
@@ -149,6 +152,7 @@ const DatasetGrid: React.FC<{ dataset: DatasetType[] }> = ({ dataset }) => {
 type DispatchType = {
   storyFilter: StoryIdType[];
   generatorFilter: GeneratorType[];
+  searchFilter: string;
 };
 
 const DatasetFilter: React.FC<{
@@ -156,6 +160,7 @@ const DatasetFilter: React.FC<{
 }> = ({ dispatch }) => {
   const [storyFilter, setStoryFilter] = useState(typedKeys(STORIES));
   const [generatorFilter, setGeneratorFilter] = useState(GENERATORS);
+  const [searchFilter, setSearchFilter] = useState("");
   return (
     <>
       <MultiSelect<StoryIdType>
@@ -164,7 +169,7 @@ const DatasetFilter: React.FC<{
         allValues={typedKeys(STORIES)}
         onChange={(v) => {
           setStoryFilter(v);
-          dispatch({ storyFilter: v, generatorFilter });
+          dispatch({ storyFilter: v, generatorFilter, searchFilter });
         }}
         getSelectLabel={(v) => STORIES[v]}
       />
@@ -174,20 +179,36 @@ const DatasetFilter: React.FC<{
         allValues={GENERATORS}
         onChange={(v) => {
           setGeneratorFilter(v);
-          dispatch({ generatorFilter: v, storyFilter });
+          dispatch({ generatorFilter: v, storyFilter, searchFilter });
         }}
         getSelectLabel={(v) => v}
       />
+      <FormControl variant="standard">
+        <InputLabel>Search</InputLabel>
+        <Input
+          onChange={(v) => {
+            setSearchFilter(v.target.value);
+            dispatch({
+              generatorFilter,
+              storyFilter,
+              searchFilter: v.target.value,
+            });
+          }}
+        />
+      </FormControl>
     </>
   );
 };
 
 export const DatasetDisplay = () => {
   const reducer = (_: DatasetType[], action: DispatchType) => {
-    return DATASET_LIST.filter(({ id, generator }) => {
+    return DATASET_LIST.filter(({ id, generator, prompt, generatedText }) => {
       return (
         action.storyFilter.some((f) => id.startsWith(f)) &&
-        action.generatorFilter.includes(generator)
+        action.generatorFilter.includes(generator) &&
+        [prompt, generatedText, id].some((s) =>
+          s.toLowerCase().includes(action.searchFilter.toLowerCase())
+        )
       );
     });
   };
