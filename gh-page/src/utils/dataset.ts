@@ -44,3 +44,5 @@ export const STORIES: { [k in StoryIdType]: string } = {
   PePa: "Peter Pan",
   PePr: "The Little Prince",
 };
+
+export const GENERATORS: GeneratorType[] = ["Bard", "ChatGPT", "LuzIA"];
