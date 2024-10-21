@@ -1,7 +1,33 @@
-import { Paper, Typography } from "@mui/material";
+import { Link, Paper, Tooltip, Typography } from "@mui/material";
 import React from "react";
 import { Box } from "@mui/system";
+import ArticleIcon from "@mui/icons-material/Article";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
+const Links = () => {
+  return (
+    <Box display="flex" gap="10px">
+      <Tooltip title="Read the paper">
+        <Link
+          href="https://aclanthology.org/2024.propor-1.49.pdf"
+          target="_blank"
+          underline="none"
+        >
+          <ArticleIcon />
+        </Link>
+      </Tooltip>
+      <Tooltip title="See on itch.io">
+        <Link
+          href="https://caiofov.itch.io/animation-generator-dataset"
+          target="_blank"
+          underline="none"
+        >
+          <PlayArrowIcon />
+        </Link>
+      </Tooltip>
+    </Box>
+  );
+};
 export const Header = () => {
   return (
     <Paper
@@ -34,10 +60,13 @@ export const Header = () => {
           Dataset - A Natural Language Text to Role-Playing Game Animation
           Generator
         </Typography>
-        <Typography variant="subtitle1">
-          Caio de F. Oliveira, Artur O. R. Franco, Wellington Franco and José G.
-          R. Maia
-        </Typography>
+        <Box display="flex" gap="20px">
+          <Typography variant="subtitle1">
+            Caio de F. Oliveira, Artur O. R. Franco, Wellington Franco and José
+            G. R. Maia
+          </Typography>
+          <Links />
+        </Box>
       </Box>
     </Paper>
   );
