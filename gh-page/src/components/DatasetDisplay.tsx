@@ -210,25 +210,36 @@ export const DatasetDisplay = () => {
 
   const [dataset, dispatch] = useReducer(reducer, DATASET_LIST);
   return (
-    <Stack>
-      <DatasetFilter dispatch={dispatch} filter={filter} />
-      {dataset.length ? (
-        <DatasetGrid dataset={dataset} />
-      ) : (
-        <Box
-          width="100%"
-          height="100%"
-          sx={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <Typography variant="inherit" fontSize="2rem" marginTop="5%">
-            No animations found, try selecting different filters
-          </Typography>
-        </Box>
-      )}
+    <Stack gap="20px">
+      <Stack gap="10px">
+        <Typography component="section" variant="subtitle2" fontSize="1.5rem">
+          Filters
+        </Typography>
+
+        <DatasetFilter dispatch={dispatch} filter={filter} />
+      </Stack>
+      <Stack gap="10px">
+        <Typography component="section" variant="subtitle2" fontSize="1.5rem">
+          Results
+        </Typography>
+        {dataset.length ? (
+          <DatasetGrid dataset={dataset} />
+        ) : (
+          <Box
+            width="100%"
+            height="100%"
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Typography variant="inherit" fontSize="2rem" marginTop="5%">
+              No animations found, try selecting different filters
+            </Typography>
+          </Box>
+        )}
+      </Stack>
     </Stack>
   );
 };
