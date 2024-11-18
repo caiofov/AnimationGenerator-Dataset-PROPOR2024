@@ -60,15 +60,25 @@ const CardBodyItem: React.FC<{
   );
 };
 
-const CardTitle: React.FC<{ id: IdType }> = ({ id }) => {
+const CardTitle: React.FC<{ animationId: IdType }> = ({ animationId }) => {
   return (
     <Divider>
       <Chip
         label={
           <Typography variant="overline" component="h5">
-            {id}
+            <Link
+              sx={{ textDecoration: "none", color: "inherit" }}
+              href={`#${animationId}`}
+            >
+              {animationId}
+            </Link>
           </Typography>
         }
+        sx={{
+          "&:hover": {
+            backgroundColor: "rgba(0, 0, 0, 0.2)",
+          },
+        }}
       />
     </Divider>
   );
