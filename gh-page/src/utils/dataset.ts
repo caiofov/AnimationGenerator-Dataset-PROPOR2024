@@ -46,3 +46,6 @@ export const STORIES: { [k in StoryIdType]: string } = {
 };
 
 export const GENERATORS: GeneratorType[] = ["Bard", "ChatGPT", "LuzIA"];
+
+export const getMapGitHubLink = (map: string) =>
+  `https://github.com/caiofov/AnimationGenerator-Dataset-PROPOR2024/blob/main/Animations/data/${map}`;
