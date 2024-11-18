@@ -1,15 +1,14 @@
 import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
 import { Box, Button, CardMedia, MobileStepper } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import SentimentVeryDissatisfiedIcon from "@mui/icons-material/SentimentVeryDissatisfied";
 
 const EmptyCarousel = () => {
   const [frameHeight, setFrameHeight] = useState(0);
+  const ref = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     const updateHeight = () => {
-      setFrameHeight(
-        document.querySelector<HTMLImageElement>(".animationFrame")!.height
-      );
+      if (ref.current) setFrameHeight(ref.current.clientWidth / 1.307);
     };
     updateHeight();
     window.addEventListener("resize", updateHeight);
@@ -20,9 +19,11 @@ const EmptyCarousel = () => {
 
   return (
     <Box
+      ref={ref}
       sx={{
         width: "100%",
         height: frameHeight,
+        background: "#f0f0f0",
       }}
       alignItems="center"
       justifyContent="center"
@@ -50,8 +51,9 @@ export const Carousel: React.FC<{ images: string[]; id: string }> = ({
   const handleBack = () => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
+
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box sx={{ width: "100%", marginBottom: "20px" }}>
       {maxSteps ? (
         <CardMedia
           className="animationFrame"
