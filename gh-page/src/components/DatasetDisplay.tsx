@@ -158,15 +158,10 @@ export const DatasetDisplay = () => {
     <Stack gap="20px">
       <Stack gap="10px">
         <Typography component="section" variant="subtitle2" fontSize="1.5rem">
-          Filters
+          Dataset
         </Typography>
 
         <DatasetFilter dispatch={dispatch} />
-      </Stack>
-      <Stack gap="10px">
-        <Typography component="section" variant="subtitle2" fontSize="1.5rem">
-          Dataset
-        </Typography>
 
         <Typography component="p" variant="body2">
           {`(${dataset.length} results found)`}
