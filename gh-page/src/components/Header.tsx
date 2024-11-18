@@ -1,5 +1,4 @@
-import { Link, Paper, Tooltip, Typography } from "@mui/material";
-import React from "react";
+import { Grid2, Link, Paper, Tooltip, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import ArticleIcon from "@mui/icons-material/Article";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
@@ -29,45 +28,68 @@ const Links = () => {
   );
 };
 export const Header = () => {
+  const imgHeight = {
+    xs: 90,
+    sm: 100,
+    md: 100,
+    // lg: 110,
+    xl: 110,
+  };
   return (
-    <Paper
-      sx={{
-        padding: "20px",
-        marginBottom: "5%",
-        display: "flex",
-        alignItems: "center",
-        gap: "1%",
-      }}
-    >
-      <Box width="30%" display="flex" alignItems="center" gap="10%">
-        <Box
-          component="img"
-          alt="Logo UFC"
-          title="Federal University of Ceará"
-          height="100px"
-          src="https://www.ufc.br/images/_images/a_universidade/identidade_visual/brasao/brasao2_vertical_cor_300dpi.png"
-        />
-        <Box
-          component="img"
-          alt="Logo PROPOR"
-          title="PROPOR"
-          height="100px"
-          src="https://propor2024.citius.gal/wp-content/uploads/2024/02/logoPropor.png"
-        />
-      </Box>
-      <Box gap="10px" display="flex" flexDirection="column">
-        <Typography variant="h1" component="h1" fontSize="3rem">
-          Dataset - A Natural Language Text to Role-Playing Game Animation
-          Generator
-        </Typography>
-        <Box display="flex" gap="20px">
-          <Typography variant="subtitle1">
-            Caio de F. Oliveira, Artur O. R. Franco, Wellington Franco and José
-            G. R. Maia
-          </Typography>
-          <Links />
-        </Box>
-      </Box>
+    <Paper sx={{ padding: "20px", marginBottom: "20px" }}>
+      <Grid2 container spacing={3}>
+        <Grid2 size={{ sm: 3, xs: 12 }}>
+          <Box
+            height="100%"
+            display="flex"
+            alignItems="center"
+            justifyContent={{ sm: "center", xs: "space-around" }}
+            gap="20px"
+            flexWrap="wrap"
+          >
+            <Box
+              component="img"
+              alt="Logo UFC"
+              title="Federal University of Ceará"
+              height={imgHeight}
+              src="https://www.ufc.br/images/_images/a_universidade/identidade_visual/brasao/brasao2_vertical_cor_300dpi.png"
+            />
+            <Box
+              component="img"
+              alt="Logo PROPOR"
+              title="PROPOR"
+              height={imgHeight}
+              src="https://propor2024.citius.gal/wp-content/uploads/2024/02/logoPropor.png"
+            />
+          </Box>
+        </Grid2>
+        <Grid2 size={{ sm: 9, xs: 12 }}>
+          <Box
+            display="flex"
+            flexDirection="column"
+            height="100%"
+            flexWrap="wrap"
+            justifyContent="center"
+            gap="10px"
+          >
+            <Typography
+              variant="h1"
+              component="h1"
+              fontSize={{ lg: "3rem", md: "2.8rem", sm: "2.4rem", xs: "2rem" }}
+            >
+              Dataset - A Natural Language Text to Role-Playing Game Animation
+              Generator
+            </Typography>
+            <Box display="flex" alignItems="center" gap="10px">
+              <Typography variant="subtitle1">
+                Caio de F. Oliveira, Artur O. R. Franco, Wellington Franco and
+                José G. R. Maia
+              </Typography>
+              <Links />
+            </Box>
+          </Box>
+        </Grid2>
+      </Grid2>
     </Paper>
   );
 };
