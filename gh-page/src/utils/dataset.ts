@@ -16,7 +16,7 @@ export interface DatasetType {
 }
 
 export const DATASET_LIST: DatasetType[] = Object.entries(dataset)
-  .filter(([key, _]) => key !== "InJo")
+  .filter(([key, _]) => !key.startsWith("InJo"))
   .map(([key, { prompt, generatedText, images, map }]) => {
     const match = key.match(
       /^(?<story>.+)_g(?<generator>.+)_p(?<promptNumber>\d+)_r(?<resultNumber>\d+)$/
