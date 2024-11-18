@@ -53,11 +53,15 @@ const DatasetFilter: React.FC<{
     <Grid2 container spacing={2}>
       <Grid2 size={{ md: 3, xs: 12 }}>
         <FormControl variant="outlined" fullWidth sx={{ height: "100%" }}>
-          <InputLabel shrink>{searchLabel}</InputLabel>
+          <InputLabel
+            sx={{ color: "inherit", backgroundColor: "white", px: "10px" }}
+            shrink
+          >
+            {searchLabel}
+          </InputLabel>
           <OutlinedInput
             sx={{ height: "100%" }}
-            label={searchLabel}
-            placeholder={randomWordSequenceFromDataset() + "..."}
+            placeholder={`... ${randomWordSequenceFromDataset()} ...`}
             onChange={(v) => {
               setSearchFilter(v.target.value);
               dispatch({
