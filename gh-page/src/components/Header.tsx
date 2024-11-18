@@ -4,24 +4,30 @@ import ArticleIcon from "@mui/icons-material/Article";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 const Links = () => {
+  const tooltipStyle = {
+    display: "flex",
+    alignItems: "center",
+    gap: { sm: "5px", xs: "10px" },
+  };
   return (
-    <Box display="flex" gap="10px">
-      <Tooltip title="Read the paper">
+    <Box display="flex" gap={{ sm: "20px", xs: "15px" }}>
+      <Tooltip title="Read the paper" sx={tooltipStyle}>
         <Link
           href="https://aclanthology.org/2024.propor-1.49.pdf"
           target="_blank"
           underline="none"
         >
           <ArticleIcon />
+          Read the paper
         </Link>
       </Tooltip>
-      <Tooltip title="See on itch.io">
+      <Tooltip title="See on itch.io" sx={tooltipStyle}>
         <Link
           href="https://caiofov.itch.io/animation-generator-dataset"
           target="_blank"
           underline="none"
         >
-          <PlayArrowIcon />
+          <PlayArrowIcon /> See on itch.io
         </Link>
       </Tooltip>
     </Box>
@@ -32,7 +38,6 @@ export const Header = () => {
     xs: 90,
     sm: 100,
     md: 100,
-    // lg: 110,
     xl: 110,
   };
   return (
@@ -82,11 +87,17 @@ export const Header = () => {
             </Typography>
             <Box display="flex" alignItems="center" gap="10px">
               <Typography variant="subtitle1">
-                Caio de F. Oliveira, Artur O. R. Franco, Wellington Franco and
-                José G. R. Maia
+                Oliveira, C. F., Franco, A., Franco, W., & Maia, J. G. (2024,
+                March). A Natural Language Text to Role-Playing Game Animation
+                Generator. In{" "}
+                <i>
+                  Proceedings of the 16th International Conference on
+                  Computational Processing of Portuguese
+                </i>{" "}
+                (pp. 483-491).
               </Typography>
-              <Links />
             </Box>
+            <Links />
           </Box>
         </Grid2>
       </Grid2>
