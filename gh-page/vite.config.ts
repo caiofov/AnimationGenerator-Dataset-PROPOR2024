@@ -14,4 +14,5 @@ function runJsonScript() {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), runJsonScript()],
+  base: "/AnimationGenerator-Dataset-PROPOR2024/",
 });
