@@ -4,6 +4,7 @@ import {
   DatasetType,
   GENERATORS,
   GeneratorType,
+  randomWordSequenceFromDataset,
   STORIES,
   StoryIdType,
 } from "../utils/dataset";
@@ -47,14 +48,16 @@ const DatasetFilter: React.FC<{
   const [storyFilter, setStoryFilter] = useState(typedKeys(STORIES));
   const [generatorFilter, setGeneratorFilter] = useState(GENERATORS);
   const [searchFilter, setSearchFilter] = useState("");
+  const searchLabel = "Search text";
   return (
     <Grid2 container spacing={2}>
       <Grid2 size={{ md: 3, xs: 12 }}>
-        <FormControl variant="outlined" fullWidth>
-          <InputLabel>Search text</InputLabel>
+        <FormControl variant="outlined" fullWidth sx={{ height: "100%" }}>
+          <InputLabel shrink>{searchLabel}</InputLabel>
           <OutlinedInput
-            label="Search text"
-            placeholder="adentrou a caverna..."
+            sx={{ height: "100%" }}
+            label={searchLabel}
+            placeholder={randomWordSequenceFromDataset() + "..."}
             onChange={(v) => {
               setSearchFilter(v.target.value);
               dispatch({
