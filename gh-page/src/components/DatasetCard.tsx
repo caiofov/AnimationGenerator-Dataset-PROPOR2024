@@ -23,7 +23,6 @@ import {
 import { Carousel } from "./Carousel";
 
 // icons
-import SentimentVeryDissatisfiedIcon from "@mui/icons-material/SentimentVeryDissatisfied";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ChatIcon from "@mui/icons-material/Chat";
@@ -84,32 +83,6 @@ const CardTitle: React.FC<{ animationId: IdType }> = ({ animationId }) => {
   );
 };
 
-const CardMedia: React.FC<{ images: string[]; id: IdType }> = ({
-  images,
-  id,
-}) => {
-  return (
-    <Box>
-      {images.length ? (
-        <Carousel {...{ images, id }} />
-      ) : (
-        <Box
-          sx={{ width: "100%", height: "420px" }}
-          alignItems="center"
-          justifyContent="center"
-          display="flex"
-          flexDirection="column"
-        >
-          <SentimentVeryDissatisfiedIcon />
-          Something went wrong with this animation
-        </Box>
-      )}
-
-      <CardTitle id={id} />
-    </Box>
-  );
-};
-
 export const DatasetCard: React.FC<{
   id: IdType;
   storyID: StoryIdType;
@@ -134,14 +107,24 @@ export const DatasetCard: React.FC<{
   return (
     <Card
       key={id}
+      id={id}
       sx={{
         height: "100%",
         display: "flex",
         flexDirection: "column",
       }}
     >
-      <CardMedia {...{ images, id }} />
-      <CardContent sx={{ flex: 1, display: "flex", flexDirection: "column" }}>
+      <Carousel {...{ images, id }} />
+      <CardTitle animationId={id} />
+
+      <CardContent
+        sx={{
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+        }}
+      >
         <List>
           <CardBodyItem title="Story" text={STORIES[storyID]} />
           <CardBodyItem title="Generator" text={generator} />
