@@ -11,8 +11,8 @@ import {
   Box,
   FormControl,
   Grid2,
-  Input,
   InputLabel,
+  OutlinedInput,
   Stack,
   Typography,
 } from "@mui/material";
@@ -48,41 +48,49 @@ const DatasetFilter: React.FC<{
   const [generatorFilter, setGeneratorFilter] = useState(GENERATORS);
   const [searchFilter, setSearchFilter] = useState("");
   return (
-    <>
-      <MultiSelect<StoryIdType>
-        inputLabel="Select stories"
-        selectedValues={storyFilter}
-        allValues={typedKeys(STORIES)}
-        onChange={(v) => {
-          setStoryFilter(v);
-          dispatch({ storyFilter: v, generatorFilter, searchFilter });
-        }}
-        getSelectLabel={(v) => STORIES[v]}
-      />
-      <MultiSelect<GeneratorType>
-        inputLabel="Select generators"
-        selectedValues={generatorFilter}
-        allValues={GENERATORS}
-        onChange={(v) => {
-          setGeneratorFilter(v);
-          dispatch({ generatorFilter: v, storyFilter, searchFilter });
-        }}
-        getSelectLabel={(v) => v}
-      />
-      <FormControl variant="standard">
-        <InputLabel>Search text</InputLabel>
-        <Input
+    <Grid2 container spacing={2}>
+      <Grid2 size={{ md: 3, xs: 12 }}>
+        <FormControl variant="outlined" fullWidth>
+          <InputLabel>Search text</InputLabel>
+          <OutlinedInput
+            label="Search text"
+            placeholder="adentrou a caverna..."
+            onChange={(v) => {
+              setSearchFilter(v.target.value);
+              dispatch({
+                generatorFilter,
+                storyFilter,
+                searchFilter: v.target.value,
+              });
+            }}
+          />
+        </FormControl>
+      </Grid2>
+      <Grid2 size={{ sm: 6, xs: 12 }}>
+        <MultiSelect<StoryIdType>
+          inputLabel="Select stories"
+          selectedValues={storyFilter}
+          allValues={typedKeys(STORIES)}
           onChange={(v) => {
-            setSearchFilter(v.target.value);
-            dispatch({
-              generatorFilter,
-              storyFilter,
-              searchFilter: v.target.value,
-            });
+            setStoryFilter(v);
+            dispatch({ storyFilter: v, generatorFilter, searchFilter });
           }}
+          getSelectLabel={(v) => STORIES[v]}
         />
-      </FormControl>
-    </>
+      </Grid2>
+      <Grid2 size={{ md: 3, sm: 6, xs: 12 }}>
+        <MultiSelect<GeneratorType>
+          inputLabel="Select generators"
+          selectedValues={generatorFilter}
+          allValues={GENERATORS}
+          onChange={(v) => {
+            setGeneratorFilter(v);
+            dispatch({ generatorFilter: v, storyFilter, searchFilter });
+          }}
+          getSelectLabel={(v) => v}
+        />
+      </Grid2>
+    </Grid2>
   );
 };
 

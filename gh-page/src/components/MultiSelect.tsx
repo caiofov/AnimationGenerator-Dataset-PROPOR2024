@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Box,
   Checkbox,
@@ -27,15 +26,15 @@ export const MultiSelect = <T extends string>({
   onChange,
 }: MultiSelectProps<T>) => {
   return (
-    <FormControl>
-      <InputLabel>{inputLabel}</InputLabel>
+    <FormControl fullWidth variant="outlined">
+      <InputLabel shrink>{inputLabel}</InputLabel>
       <Select
         multiple
         value={selectedValues}
         onChange={(v) => {
           onChange(v.target.value as T[]);
         }}
-        input={<OutlinedInput />}
+        input={<OutlinedInput label={inputLabel} />}
         renderValue={(selected) => (
           <Box
             sx={{
