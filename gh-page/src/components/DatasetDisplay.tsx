@@ -4,12 +4,15 @@ import {
   DatasetType,
   GENERATORS,
   GeneratorType,
+  randomWordSequenceFromDataset,
   STORIES,
   StoryIdType,
 } from "../utils/dataset";
 import {
   Box,
+  Checkbox,
   FormControl,
+  FormControlLabel,
   Grid2,
   InputLabel,
   OutlinedInput,
@@ -39,6 +42,7 @@ type DispatchType = {
   storyFilter: StoryIdType[];
   generatorFilter: GeneratorType[];
   searchFilter: string;
+  visibilityFilter: boolean;
 };
 
 const DatasetFilter: React.FC<{
@@ -46,20 +50,29 @@ const DatasetFilter: React.FC<{
 }> = ({ dispatch }) => {
   const [storyFilter, setStoryFilter] = useState(typedKeys(STORIES));
   const [generatorFilter, setGeneratorFilter] = useState(GENERATORS);
+  const [visibilityFilter, setVisibilityFilter] = useState(true);
   const [searchFilter, setSearchFilter] = useState("");
+  const searchLabel = "Search text";
+  const searchPlaceholder = `${randomWordSequenceFromDataset(4)} ...`;
   return (
     <Grid2 container spacing={2}>
       <Grid2 size={{ md: 3, xs: 12 }}>
-        <FormControl variant="outlined" fullWidth>
-          <InputLabel>Search text</InputLabel>
+        <FormControl variant="outlined" fullWidth sx={{ height: "100%" }}>
+          <InputLabel
+            sx={{ color: "inherit", backgroundColor: "white", px: "10px" }}
+            shrink
+          >
+            {searchLabel}
+          </InputLabel>
           <OutlinedInput
-            label="Search text"
-            placeholder="adentrou a caverna..."
+            sx={{ height: "100%" }}
+            placeholder={searchPlaceholder}
             onChange={(v) => {
               setSearchFilter(v.target.value);
               dispatch({
                 generatorFilter,
                 storyFilter,
+                visibilityFilter,
                 searchFilter: v.target.value,
               });
             }}
@@ -73,7 +86,12 @@ const DatasetFilter: React.FC<{
           allValues={typedKeys(STORIES)}
           onChange={(v) => {
             setStoryFilter(v);
-            dispatch({ storyFilter: v, generatorFilter, searchFilter });
+            dispatch({
+              storyFilter: v,
+              generatorFilter,
+              searchFilter,
+              visibilityFilter,
+            });
           }}
           getSelectLabel={(v) => STORIES[v]}
         />
@@ -85,10 +103,35 @@ const DatasetFilter: React.FC<{
           allValues={GENERATORS}
           onChange={(v) => {
             setGeneratorFilter(v);
-            dispatch({ generatorFilter: v, storyFilter, searchFilter });
+            dispatch({
+              generatorFilter: v,
+              storyFilter,
+              searchFilter,
+              visibilityFilter,
+            });
           }}
           getSelectLabel={(v) => v}
         />
+      </Grid2>
+      <Grid2 size={{ xs: 12 }}>
+        <FormControlLabel
+          label="Display empty animations"
+          control={
+            <Checkbox
+              checked={visibilityFilter}
+              onChange={(e) => {
+                const v = e.target.checked;
+                setVisibilityFilter(v);
+                dispatch({
+                  generatorFilter,
+                  storyFilter,
+                  searchFilter,
+                  visibilityFilter: v,
+                });
+              }}
+            />
+          }
+        ></FormControlLabel>
       </Grid2>
     </Grid2>
   );
@@ -96,15 +139,18 @@ const DatasetFilter: React.FC<{
 
 export const DatasetDisplay = () => {
   const reducer = (_: DatasetType[], action: DispatchType) => {
-    return DATASET_LIST.filter(({ id, generator, prompt, generatedText }) => {
-      return (
-        action.storyFilter.some((f) => id.startsWith(f)) &&
-        action.generatorFilter.includes(generator) &&
-        [prompt, generatedText, id].some((s) =>
-          s.toLowerCase().includes(action.searchFilter.toLowerCase())
-        )
-      );
-    });
+    return DATASET_LIST.filter(
+      ({ id, generator, prompt, generatedText, map }) => {
+        return (
+          action.storyFilter.some((f) => id.startsWith(f)) &&
+          action.generatorFilter.includes(generator) &&
+          [prompt, generatedText, id].some((s) =>
+            s.toLowerCase().includes(action.searchFilter.toLowerCase())
+          ) &&
+          (action.visibilityFilter ? true : map !== null)
+        );
+      }
+    );
   };
 
   const [dataset, dispatch] = useReducer(reducer, DATASET_LIST);
@@ -112,15 +158,10 @@ export const DatasetDisplay = () => {
     <Stack gap="20px">
       <Stack gap="10px">
         <Typography component="section" variant="subtitle2" fontSize="1.5rem">
-          Filters
+          Dataset
         </Typography>
 
         <DatasetFilter dispatch={dispatch} />
-      </Stack>
-      <Stack gap="10px">
-        <Typography component="section" variant="subtitle2" fontSize="1.5rem">
-          Dataset
-        </Typography>
 
         <Typography component="p" variant="body2">
           {`(${dataset.length} results found)`}

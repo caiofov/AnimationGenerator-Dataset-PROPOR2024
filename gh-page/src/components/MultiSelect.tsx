@@ -27,13 +27,13 @@ export const MultiSelect = <T extends string>({
 }: MultiSelectProps<T>) => {
   return (
     <FormControl fullWidth variant="outlined">
-      <InputLabel shrink>{inputLabel}</InputLabel>
+      <InputLabel sx={{ color: "inherit" }} shrink>
+        {inputLabel}
+      </InputLabel>
       <Select
         multiple
         value={selectedValues}
-        onChange={(v) => {
-          onChange(v.target.value as T[]);
-        }}
+        onChange={(v) => onChange(v.target.value as T[])}
         input={<OutlinedInput label={inputLabel} />}
         renderValue={(selected) => (
           <Box

@@ -49,3 +49,17 @@ export const GENERATORS: GeneratorType[] = ["Bard", "ChatGPT", "LuzIA"];
 
 export const getMapGitHubLink = (map: string) =>
   `https://github.com/caiofov/AnimationGenerator-Dataset-PROPOR2024/blob/main/Animations/data/${map}`;
+
+export const randomWordSequenceFromDataset = (size: number) => {
+  const attributes = ["prompt", "generatedText"] as const;
+  const randomAttribute = attributes[Math.floor(Math.random() * 2)];
+
+  const randomIdx = Math.floor(Math.random() * DATASET_LIST.length);
+  const randomItem = DATASET_LIST[randomIdx][randomAttribute].split(" ");
+
+  const startIndex = Math.floor(
+    Math.random() * (randomItem.length - (size - 1))
+  );
+
+  return randomItem.slice(startIndex, startIndex + size).join(" ");
+};
