@@ -143,6 +143,7 @@ export const DatasetCard: React.FC<{
         height: "100%",
         display: "flex",
         flexDirection: "column",
+        background: "#f9fbff",
       }}
     >
       <Carousel {...{ images, id }} />

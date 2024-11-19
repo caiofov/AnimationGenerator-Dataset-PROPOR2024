@@ -70,6 +70,9 @@ export const Carousel: React.FC<{
           <EmptyCarousel />
         )}
         <MobileStepper
+          sx={{
+            background: "#f9fbff",
+          }}
           variant="text"
           steps={maxSteps}
           position="static"
