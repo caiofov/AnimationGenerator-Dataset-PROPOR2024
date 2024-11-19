@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from "react";
+import React, { useEffect, useReducer, useState } from "react";
 import {
   DATASET_LIST,
   DatasetType,
@@ -53,7 +53,11 @@ const DatasetFilter: React.FC<{
   const [visibilityFilter, setVisibilityFilter] = useState(true);
   const [searchFilter, setSearchFilter] = useState("");
   const searchLabel = "Search text";
-  const searchPlaceholder = `${randomWordSequenceFromDataset(4)} ...`;
+  const [searchPlaceholder, setSearchPlaceholder] = useState("");
+
+  useEffect(() => {
+    setSearchPlaceholder(`${randomWordSequenceFromDataset(4)} ...`);
+  }, []);
   return (
     <Grid2 container spacing={2}>
       <Grid2 size={{ md: 3, xs: 12 }}>
