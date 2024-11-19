@@ -4,6 +4,7 @@ import {
   CardContent,
   Chip,
   Divider,
+  Fade,
   Link,
   List,
   ListItem,
@@ -28,6 +29,7 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ChatIcon from "@mui/icons-material/Chat";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
+import { useInView } from "react-intersection-observer";
 
 const itemIcons = {
   Story: MenuBookIcon,
@@ -36,26 +38,41 @@ const itemIcons = {
   "Generated text": LightbulbIcon,
 };
 
-const CardBodyItem: React.FC<{
+type CardBodyItemProps = {
   title: keyof typeof itemIcons;
   subtitle?: string;
   text: string;
-}> = ({ title, text, subtitle }) => {
+};
+const CardBodyItem: React.FC<CardBodyItemProps & { delay: number }> = ({
+  title,
+  text,
+  subtitle,
+  delay,
+}) => {
   const Icon = itemIcons[title];
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0.2,
+    delay,
+  });
   return (
-    <ListItem>
-      <ListItemIcon>
-        <Icon fontSize="small" />
-      </ListItemIcon>
-      <ListItemText sx={{ display: "flex" }}>
-        <Typography variant="subtitle2" component="h6">
-          {title}:
-        </Typography>
-        {subtitle ? <Typography variant="body2">{subtitle}</Typography> : null}
+    <Fade in={inView} timeout={1500}>
+      <ListItem ref={ref}>
+        <ListItemIcon>
+          <Icon fontSize="small" />
+        </ListItemIcon>
+        <ListItemText sx={{ display: "flex" }}>
+          <Typography variant="subtitle2" component="h6">
+            {title}:
+          </Typography>
+          {subtitle ? (
+            <Typography variant="body2">{subtitle}</Typography>
+          ) : null}
 
-        {text}
-      </ListItemText>
-    </ListItem>
+          {text}
+        </ListItemText>
+      </ListItem>
+    </Fade>
   );
 };
 
@@ -104,6 +121,20 @@ export const DatasetCard: React.FC<{
   promptNumber,
   resultNumber,
 }) => {
+  const body: CardBodyItemProps[] = [
+    {
+      title: "Story",
+      text: STORIES[storyID],
+    },
+    { title: "Generator", text: generator },
+    { title: "Prompt", subtitle: `(nº ${promptNumber})`, text: prompt },
+    {
+      title: "Generated text",
+      subtitle: `(nº ${resultNumber})`,
+      text: generatedText,
+    },
+  ];
+
   return (
     <Card
       key={id}
@@ -126,18 +157,10 @@ export const DatasetCard: React.FC<{
         }}
       >
         <List>
-          <CardBodyItem title="Story" text={STORIES[storyID]} />
-          <CardBodyItem title="Generator" text={generator} />
-          <CardBodyItem
-            title="Prompt"
-            subtitle={`(nº ${promptNumber})`}
-            text={prompt}
-          />
-          <CardBodyItem
-            title="Generated text"
-            subtitle={`(nº ${resultNumber})`}
-            text={generatedText}
-          />
+          {body.map((item, idx) => {
+            const delay = 100 * idx;
+            return <CardBodyItem delay={delay} key={item.title} {...item} />;
+          })}
         </List>
 
         {map ? (
